@@ -1,0 +1,112 @@
+﻿
+@{
+    ViewBag.Title = "Start";
+}
+
+<h2>Start</h2>
+<!--<div id="myCarousel" class="carousel slide" data-ride="carousel">-->
+<!-- Wrapper for slides -->
+<!--<div class="carousel-inner">
+    <div class="item active">
+        <img src="https://ununsplash.imgix.net/photo-1416339134316-0e91dc9ded92?q=75&amp;fm=jpg&amp;s=883a422e10fc4149893984019f63c818" alt="Los Angeles">
+    </div>
+
+    <div class="item">
+        <img src="https://ununsplash.imgix.net/photo-1416339134316-0e91dc9ded92?q=75&amp;fm=jpg&amp;s=883a422e10fc4149893984019f63c818" alt="Chicago">
+    </div>
+
+    <div class="item">
+        <img src="https://ununsplash.imgix.net/photo-1416339134316-0e91dc9ded92?q=75&amp;fm=jpg&amp;s=883a422e10fc4149893984019f63c818" alt="New York">
+    </div>
+</div>-->
+<!-- Left and right controls -->
+<!--</div>
+<div>
+    <button class="btn-success" href="#myCarousel" data-slide="next">Next</button>
+</div>-->
+<!-- =================== -->
+<div id="myCarousel" class="carousel slide" data-ride="carousel">
+    <div class="carousel-inner">
+        <div class="item active">
+            <div class="container-fluid " id="startquiz">
+                <div class="modal-dialog">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            <h3 class="text-center" id="definition"></h3>
+                        </div>
+                        <div class="modal-body">
+                            <div class="col-xs-3 col-xs-offset-5">
+                                <div id="loadbar" style="display: none;">
+                                    <div class="blockG" id="rotateG_01"></div>
+                                    <div class="blockG" id="rotateG_02"></div>
+                                    <div class="blockG" id="rotateG_03"></div>
+                                    <div class="blockG" id="rotateG_04"></div>
+                                    <div class="blockG" id="rotateG_05"></div>
+                                    <div class="blockG" id="rotateG_06"></div>
+                                    <div class="blockG" id="rotateG_07"></div>
+                                    <div class="blockG" id="rotateG_08"></div>
+                                </div>
+                            </div>
+
+                            <div class="quiz" id="quiz" data-toggle="buttons">
+                                <label id="0" class="animatebutton element-animation1 btn btn-lg btn-primary btn-block"><span class="btn-label"><i class="glyphicon glyphicon-chevron-right"></i></span> <input type="radio" name="q_answer" value="0">Zero</label>
+                                <label id="1" class=" element-animation2 btn btn-lg btn-primary btn-block"><span class="btn-label"><i class="glyphicon glyphicon-chevron-right"></i></span> <input type="radio" name="q_answer" value="1">One</label>
+                                <label id="2" class=" element-animation3 btn btn-lg btn-primary btn-block"><span class="btn-label"><i class="glyphicon glyphicon-chevron-right"></i></span> <input type="radio" name="q_answer" value="2">Two</label>
+                                <label id="3" class=" element-animation4 btn btn-lg btn-primary btn-block"><span class="btn-label"><i class="glyphicon glyphicon-chevron-right"></i></span> <input type="radio" name="q_answer" value="3">Three</label>
+                            </div>
+                        </div>
+                        <div class="modal-footer text-muted">
+                            <h3 id="answer" class="text-center"></h3>
+                            <h4 class="text-left"><b id="getDefinition1"></b><span id="getDefinition"></span></h4>
+
+                            <h4 class="text-center">Score: <span id="score"></span></h4>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="item">
+            <div class="container-fluid " id="startquiz">
+                <div class="modal-dialog">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            <h3 class="text-center" id="definition"></h3>
+                        </div>
+                        <div class="modal-body">
+                            <div class="col-xs-3 col-xs-offset-5">
+                                <div id="loadbar" style="display: none;">
+                                    <div class="blockG" id="rotateG_01"></div>
+                                    <div class="blockG" id="rotateG_02"></div>
+                                    <div class="blockG" id="rotateG_03"></div>
+                                    <div class="blockG" id="rotateG_04"></div>
+                                    <div class="blockG" id="rotateG_05"></div>
+                                    <div class="blockG" id="rotateG_06"></div>
+                                    <div class="blockG" id="rotateG_07"></div>
+                                    <div class="blockG" id="rotateG_08"></div>
+                                </div>
+                            </div>
+
+                            <div class="quiz" id="quiz" data-toggle="buttons">
+                                <label id="0" class="animatebutton element-animation1 btn btn-lg btn-primary btn-block"><span class="btn-label"><i class="glyphicon glyphicon-chevron-right"></i></span> <input type="radio" name="q_answer" value="0">Four</label>
+                                <label id="1" class=" element-animation2 btn btn-lg btn-primary btn-block"><span class="btn-label"><i class="glyphicon glyphicon-chevron-right"></i></span> <input type="radio" name="q_answer" value="1">Five</label>
+                                <label id="2" class=" element-animation3 btn btn-lg btn-primary btn-block"><span class="btn-label"><i class="glyphicon glyphicon-chevron-right"></i></span> <input type="radio" name="q_answer" value="2">Six</label>
+                                <label id="3" class=" element-animation4 btn btn-lg btn-primary btn-block"><span class="btn-label"><i class="glyphicon glyphicon-chevron-right"></i></span> <input type="radio" name="q_answer" value="3">Seven</label>
+                            </div>
+                        </div>
+                        <div class="modal-footer text-muted">
+                            <h3 id="answer" class="text-center"></h3>
+                            <h4 class="text-left"><b id="getDefinition1"></b><span id="getDefinition"></span></h4>
+
+                            <h4 class="text-center">Score: <span id="score"></span></h4>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<div>
+    <button class="btn-success" href="#myCarousel" data-slide="next">Next</button>
+</div>

@@ -1,0 +1,139 @@
+﻿@model EnglishLearningTools.Models.ViewModel.ListsViewModel
+@using System.Linq
+@using Microsoft.Ajax.Utilities
+@using Newtonsoft.Json
+@{
+    ViewBag.Title = "MyList";
+}
+
+<h1 class="text-center">@Model.ListName</h1>
+<h2 id="empty"></h2>
+@if (Model.Words.Count() <= 0)
+{
+    <h2>Your list is empty, try to add more words!</h2>
+}
+else
+{
+    <div class="card">
+        @foreach (var str in Model.Words)
+        {
+            var count = 0;
+            if (!str.IsNullOrWhiteSpace())
+            {
+                count++;
+                <div class="card-body zoom js-delete" id="card @count" style="display: none;">
+                    <h2>
+                        @Html.ActionLink(str, "Index", "Dictionary", new { word = str }, null)
+                    </h2>
+
+                    <h4 id="@str"></h4>
+                    <button id="@str" type="button" class="button btn btn-danger btn-sm">
+                        <span id="@str" class="glyphicon glyphicon-trash" aria-hidden="true"></span> Delete
+                    </button>
+                </div>
+            }
+        }
+
+    </div>
+    <div id="loadMore" class="text-center" style="display: none;">
+        
+        <div>
+            <button type="button" class="btn btn-light btn-lg">Load More 
+            <br/>
+       
+            <span class="glyphicon glyphicon-menu-down " aria-hidden="true"></span>
+            </button>
+        </div>
+
+    </div>
+}
+<a href="@Url.Action("Index", "Lists")" class="btn btn-success">
+    <span class="glyphicon glyphicon-arrow-left" aria-hidden="true"></span>
+    Back to Your Lists
+
+</a>
+
+
+
+@section scripts
+{
+    <script>
+        $(document).ready(function() {
+            var x = 10;
+            if ($('.card div').length > 10) {
+                $('.card div').slice(0, 10).show();
+
+                $('#loadMore').show();
+                $('#loadMore').on('click',
+                    function(e) {
+                        
+                        e.preventDefault();
+                        x = x + 10;
+                        $('.card div').slice(0, x).slideDown();
+                        defineWord();
+                        if (x >= $('.card div').length) {
+                            $('#loadMore').hide();
+                        }
+                    });
+
+
+            } else {
+                $('.card div').show();
+            }
+
+
+            var model = @Html.Raw(JsonConvert.SerializeObject(this.Model.ListId));
+
+            $(".button").click(function() {
+                var id = this.id;
+                bootbox.confirm("Are you sure you want to delete this word?",
+                    function(result) {
+                        if (result) {
+                            $.ajax({
+                                url: "/api/dictionary?word=" + id + "&&id=" + model,
+                                method: "DELETE",
+                                success: function(result) {
+                                    $("#" + id).parent().empty();
+
+                                },
+                                error: function() {
+
+                                }
+                            }); // end ajax
+                        }
+                    }); // end bootbox
+            });
+
+            function defineWord() {
+                $("h4:visible").each(function(index, element) {
+                    if ($("#" + element.getAttribute('id')).text() == '') {
+
+                        $.ajax({
+                            url: "/api/dictionary/" + element.getAttribute('id'),
+                            method: "GET",
+                            success: function(data) {
+                                if (data[0].meanings.length > 0) {
+                                    var definition = data[0].meanings[0].definitions[0].definition;
+                                    $("#" + element.getAttribute('id')).text(definition);
+                                }
+                            }
+                        }); // end ajax
+                    }
+
+                }); // end foreach
+            } // end function
+
+            defineWord();
+
+
+        }); // end document
+    </script>
+
+    <style>
+        .zoom:hover {
+            background-color: #F8F8F8;
+        }
+    </style>
+}
+
+

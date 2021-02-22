@@ -1,0 +1,75 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>@ViewBag.Title - My ASP.NET Application</title>
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    @Styles.Render("~/Content/css")
+    @Scripts.Render("~/bundles/modernizr")
+</head>
+<body>
+    <div class="navbar navbar-inverse navbar-fixed-top ">
+        <div class="container">
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                @Html.ActionLink("English Learning Tools", "Index", "Dictionary", new { area = "" }, new { @class = "navbar-brand" })
+            </div>
+            <div class="navbar-collapse collapse ">
+                <ul class="nav navbar-nav ">
+                    @*<li class="nav-item">@Html.ActionLink("Home", "Index", "Home")</li>
+                    <li class="nav-item">@Html.ActionLink("About", "About", "Home")</li>
+                    <li class="nav-item">@Html.ActionLink("Contact", "Contact", "Home")</li>*@
+                    <li class="nav-item">@Html.ActionLink("Dictionary", "Index", "Dictionary")</li>
+                    <li class="nav-item">@Html.ActionLink("Sentence Examples", "New", "GoogleApi")</li>
+                    <li class="nav-item">@Html.ActionLink("Vocabulary Quiz", "Index", "Quiz")</li>
+                    <li class="nav-item">@Html.ActionLink("Grammar Checker", "Index", "GrammarChecker")</li>
+                </ul>
+                @Html.Partial("_LoginPartial")
+            </div>
+        </div>
+    </div>
+    <div class="container body-content">
+        @RenderBody()
+
+        @*<footer class="footer">
+                <hr />
+                <p>&copy; @DateTime.Now.Year - My ASP.NET Application</p>
+            </footer>*@
+        <footer class="text-muted footer1" >
+            <div class="container">
+                <hr />
+                <p class="float-right text-center">
+                    <a href="#" class="">Back to top</a>
+                </p>
+                <div class="text-center">
+                    <a href="https://www.linkedin.com/in/quang-nguyen-730b28195/"><i class="fa fa-linkedin-square" style="font-size:24px"></i></a>
+                    <a href="https://github.com/quang5598/"><i class="fa fa-github-square" style="font-size:24px"></i></a>
+                </div>
+                
+
+            </div>
+        </footer>
+    </div>
+
+    @Scripts.Render("~/bundles/jquery")
+    @Scripts.Render("~/bundles/bootstrap")
+    @RenderSection("scripts", required: false)
+</body>
+</html>
+
+<style>
+    .footer1 {
+        position: absolute;
+        bottom: 0;
+        height: 60px;
+        line-height: 60px;
+        background-color: white;
+    }
+</style>

@@ -1,0 +1,27 @@
+﻿
+@{
+    ViewBag.Title = "New";
+}
+
+<h2>New</h2>
+
+@section scripts
+{
+    <script>
+
+        $(document).ready(function() {
+            $.ajax({
+                type: "get",
+                url: "https://video.google.com/timedtext?lang=en&v=WaNLJf8xzC4",
+                dataType: "xml",
+                success: function(data) {
+                    /* handle data here */
+                    console.log(data)
+                },
+                error: function(xhr, status) {
+                    /* handle error here */
+                }
+            });
+        });
+    </script>
+}

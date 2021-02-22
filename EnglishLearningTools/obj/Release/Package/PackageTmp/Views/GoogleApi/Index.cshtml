@@ -1,0 +1,48 @@
+﻿@model List<TestGoogleApi.Models.GoogleApi>
+@{
+    ViewBag.Title = "Index";
+}
+
+<h2>Index</h2>
+
+
+<table  class="table table-bordered table-hover">
+    <thead>
+    <tr>
+        <th>Title</th>
+        <th>Snippet</th>
+        <th>Link</th>
+    </tr>
+    </thead>
+    <tbody>
+    @if (Model != null)
+    {
+        foreach (var p in Model)
+        {
+        
+            <tr>
+                <td>
+                    @p.Title
+                </td>
+                <td>
+                    @Html.Raw(p.Snippet)
+                </td>
+                <td>
+                    @p.Link
+                </td>
+            </tr>
+        }
+    }
+    else
+    {
+        <tr>
+    <td>
+        @Model
+    </td>
+    </tr>
+    }
+
+
+    </tbody>
+
+</table>

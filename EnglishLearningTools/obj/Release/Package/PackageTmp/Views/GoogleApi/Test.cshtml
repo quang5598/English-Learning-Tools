@@ -1,0 +1,71 @@
+﻿
+@{
+    ViewBag.Title = "Test";
+}
+
+
+
+@*<iframe width="420" height="315"
+            src="https://www.youtube.com/embed/odM92ap8_c0?autoplay=1;start=1">
+    </iframe>*@
+
+
+@*<iframe id="ytplayer" width="420" height="315"
+        src="https://www.youtube.com/embed/odM92ap8_c0?autoplay=1&controls=0">
+</iframe>*@
+
+
+
+@*<div style="pointer-events:none;">
+    <iframe id="ytplayer" type="text/html" style="position:absolute;
+top:0px; left:0px; bottom:0px; right:10px; width:100%; height:100%;
+border:none; margin:0; padding:0; overflow:hidden; z-index:999999;"
+            src="https://www.youtube-nocookie.com/embed/XW2E2Fnh52w?modestbranding=0&rel=0&autoplay=1&mute=1&controls=0&showinfo=0&loop=1&iv_load_policy=3&enablejsapi=1"
+            frameborder="0" allowfullscreen allow="autoplay"></iframe>
+</div>*@
+
+<div style="pointer-events:none;">
+    <iframe id="ytplayer" type="text/html" width="1920" height="1080"
+            src="https://www.youtube-nocookie.com/embed/XW2E2Fnh52w?modestbranding=0&rel=0&autoplay=1&mute=1&controls=0&showinfo=0&loop=1&iv_load_policy=3&enablejsapi=1"
+            frameborder="0" allowfullscreen allow="autoplay"></iframe>
+</div>
+<button style="position:absolute;" onclick="pause();">Pause</button>
+
+
+@section scripts
+{
+        <script type="text/javascript">
+            var tag = document.createElement('script');
+
+            tag.src = "//www.youtube.com/iframe_api";
+            var firstScriptTag = document.getElementsByTagName('script')[0];
+            firstScriptTag.parentNode.insertBefore(tag, firstScriptTag);
+            
+            var player;
+
+            function onYouTubeIframeAPIReady() {
+                player = new YT.Player('ytplayer', {
+                    events: {
+                        'onReady': onPlayerReady
+                    }
+                });
+            }
+            function pause() {
+                if (player.getPlayerState() == YT.PlayerState.PLAYING) {
+                    player.pauseVideo();
+                } else {
+                    player.playVideo();
+                }
+            };
+
+            function onPlayerReady() {
+
+                    player.playVideo();
+                    // Mute!
+                    player.unMute();
+                
+            }
+
+
+        </script>
+    }

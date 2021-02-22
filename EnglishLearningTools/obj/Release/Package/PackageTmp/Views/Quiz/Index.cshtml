@@ -1,0 +1,354 @@
+﻿
+@{
+    ViewBag.Title = "Index";
+}
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.0/animate.min.css">
+<link href="~/Content/quiz.css" rel="stylesheet" />
+
+<h2></h2>
+<div class="container-fluid " id="selectlevel">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header text-center">
+                <h1>Vocabulary Quiz</h1>
+            </div>
+            <div class="modal-body text-center">
+                <div class="col">
+                    <h3>Difficulty Level</h3>
+                    <select class="form-control" name="difficulty" id="difficulty">
+                        <option value="1">1</option>
+                        <option value="2">2</option>
+                        <option value="3">3</option>
+                        <option value="4">4</option>
+                        <option value="5" selected="selected">5</option>
+                        <option value="6">6</option>
+                        <option value="7">7</option>
+                        <option value="8">8</option>
+                        <option value="9">9</option>
+                        <option value="10">10</option>
+                    </select>
+                    <h3>Category</h3>
+                    <select class="form-control" name="category" id="category">
+                        <option value="es">Elementary School</option>
+                        <option value="ms">Middle School</option>
+                        <option value="hs">High School</option>
+                        <option value="4">KSAT</option>
+                        <option value="ielts">IELTS</option>
+                        <option value="toefl">TOEFL</option>
+                        <option value="sat">SAT</option>
+                        <option value="gre">GRE</option>
+                        <option value="gmat">GMAT</option>
+                        <option value="overall" selected="selected">Overall</option>
+                    </select>
+                </div>
+            </div>
+            <hr />
+            <div class="text-center ">
+                <button id="start" class="btn-lg btn-success ">Start</button>
+            </div>
+        </div>
+    </div>
+</div>
+<!--  Quiz -->
+<div class="container-fluid element-animation1" style="display: none;" id="startquiz">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h3 class="text-center" id="definition"></h3>
+            </div>
+            <div class="modal-body">
+                <div class="col-xs-3 col-xs-offset-5">
+                    <div id="loadbar" style="display: none;">
+                        <div class="blockG " id="rotateG_01"></div>
+                        <div class="blockG" id="rotateG_02"></div>
+                        <div class="blockG" id="rotateG_03"></div>
+                        <div class="blockG" id="rotateG_04"></div>
+                        <div class="blockG" id="rotateG_05"></div>
+                        <div class="blockG" id="rotateG_06"></div>
+                        <div class="blockG" id="rotateG_07"></div>
+                        <div class="blockG" id="rotateG_08"></div>
+                    </div>
+                </div>
+
+                <div class="quiz" id="quiz" data-toggle="buttons">
+                    <label id="0" class="selected-choice animatebutton element-animation1 btn btn-lg btn-primary btn-block"><span class="btn-label"><i class="glyphicon glyphicon-chevron-right"></i></span> <input type="radio" name="q_answer" value="0"></label>
+                    <label id="1" class=" selected-choice element-animation2 btn btn-lg btn-primary btn-block"><span class="btn-label"><i class="glyphicon glyphicon-chevron-right"></i></span> <input type="radio" name="q_answer" value="1"></label>
+                    <label id="2" class="selected-choice element-animation3 btn btn-lg btn-primary btn-block"><span class="btn-label"><i class="glyphicon glyphicon-chevron-right"></i></span> <input type="radio" name="q_answer" value="2"></label>
+                    <label id="3" class=" selected-choice element-animation4 btn btn-lg btn-primary btn-block"><span class="btn-label"><i class="glyphicon glyphicon-chevron-right"></i></span> <input type="radio" name="q_answer" value="3"></label>
+                </div>
+            </div>
+            <div class="modal-footer text-muted">
+                <div class="text-center">
+                    <em class="text-center"><span id="currentQuestion"></span>/<span id="totalQuestion"></span></em>
+                </div>
+                <h3 id="answer" class="text-center"></h3>
+                <h4 class="text-left"><b id="getDefinition1"></b><span id="getDefinition"></span></h4>
+
+                <h4 class="text-center">Score: <span id="score"></span></h4>
+                <button id="next" class="btn btn-success">Next</button>
+
+            </div>
+            
+
+        </div>
+    </div>
+</div>
+<!-- Quiz -->
+<!-- End -->
+<div class="container-fluid " id="endResult" style="display: none;">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header text-center">
+                <h1>Result</h1>
+            </div>
+            <div class="modal-body text-center">
+                <div class="col">
+                    <h2 id="message"></h2>
+                    <h3>Your Final Score</h3>
+                    <h3 id="finalScore"></h3>
+                </div>
+
+                <div>
+                    <h3 class="text-left" id="incorrectedChoice"></h3>
+                </div>
+            </div>
+            <hr />
+            <div class="text-center ">
+                <button id="playagain" class=" btn-lg btn-success">Play Again</button>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- End -->
+<div id="loading-image" style="display: none" class="text-center">
+    <h1>Please wait while the application is generating your quiz....</h1>
+    <img src="https://mir-s3-cdn-cf.behance.net/project_modules/disp/35771931234507.564a1d2403b3a.gif" />
+</div>
+
+<div id="loading"></div>
+
+
+@section scripts
+{
+    <script>
+        var answer;
+        var tempList = [];
+        var score = 0;
+        var incorrect = [];
+        var totalLength;
+        var currentQuestion = 1;
+        $(document).ready(function () {
+            displayResult();
+
+            $("#start").click(function () {
+                $('#loading-image').show();
+                $("#selectlevel").hide();
+                $.ajax({
+                    url: "/api/quiz?difficulty=" + $("#difficulty").val() + "&&category=" + $("#category").val(),
+                    type: "GET",
+                    success: function (data) {
+                        $("#startquiz").show();
+                        $.each(data.quizlist,
+                            function (index, value) {
+                                tempList.push(...value.option);
+                            }); // end each()
+
+                        tempList.forEach(function (element, index) {
+                            $.ajax({
+                                async: false,
+                                url: "/api/dictionary/" + element,
+                                method: "GET",
+                                success: function (data) {
+                                    if (data[0].meanings.length > 0) {
+                                    } else {
+                                        tempList.splice(index, 1);
+                                    }
+                                },
+                                error: function () {
+                                    tempList.splice(index, 1);
+                                },
+                                complete: function () {
+                                    $('#loading-image').hide();
+                                }
+                            }); // end ajax
+
+
+                        });
+                        totalLength = tempList.length;
+                        getQuiz();
+
+                    }, // end success
+                })
+            });
+
+            function getQuiz() {
+                
+                $("#startquiz").show();
+                $("#next").hide();
+                $(".selected-choice").removeClass("btn-success btn-danger disabled");
+                $(".selected-choice").removeAttr("disabled");
+                $("#totalQuestion").text(totalLength - 3);
+                $("#currentQuestion").text(currentQuestion);
+                $("#answer").empty();
+                $("#getDefinition").empty();
+                $("#getDefinition1").empty();
+                var ranWords = [];
+                var tempWords = tempList.slice(0);
+                for (var k = 0; k < 4; k++) {
+                    var j = Math.floor(Math.random() * (tempWords.length));
+                    ranWords.push(tempWords[j]);
+                    $("#" + k).text(ranWords[k])
+                    tempWords.splice(j, 1);
+                }
+
+                var randomDefinition = Math.floor(Math.random() * (ranWords.length));
+                getWord(ranWords[randomDefinition]);
+                answer = randomDefinition;
+
+                $(".selected-choice").unbind('click').click(function () {
+                    if (!$(this).hasClass("disabled")) {
+                        var choice = $(this).attr("id");
+                        if (choice == answer) {
+                            $("#answer").html("<b style='color:green;'>Correct!</b>");
+                            var index = tempList.indexOf(ranWords[randomDefinition]);
+                            if (index > -1) {
+                                tempList.splice(index, 1);
+                                score += 10;
+                                
+                                if (tempList.length >= 3) {
+                                    $("#score").text(score);
+                                    $("#" + choice).addClass("btn-success");
+                                    $(".selected-choice").attr('disabled', 'disabled');
+                                    $(".selected-choice").addClass('disabled');
+                                    $("#next").show();
+                                    currentQuestion++;
+                                }
+                            }
+                        } else {
+                            if (incorrect.indexOf(ranWords[answer]) == -1) {
+                                incorrect.push(ranWords[answer]);
+                            }
+                            if (score > 0) {
+                                score -= 4;
+                            }
+                            $("#score").text(score);
+                            $("#getDefinition").empty();
+                            $("#getDefinition1").empty();
+                            $("#getDefinition1").text(ranWords[choice] + " - ")
+                            getDefinition(ranWords[choice]);
+                            $("#answer").html("<b style='color:red;'>Incorrect</b>");
+                            $("#" + choice).addClass("btn-danger disabled");
+                            $("#" + choice).attr('disabled', 'disabled');
+                        }
+                    }
+
+                }) // end function
+            }
+
+            function displayResult() {
+                
+                var finalScore = (score / (totalLength *10)) * 100;
+                if (finalScore >= 75) {
+                    $("#message").html("Congratulation, you have passed level <b>" +
+                        $("#difficulty").val() +
+                        "</b> of <b>" +
+                        $("#category option:selected").text() +
+                        "</b> quiz!");
+                    $("#finalScore").html("<b style='color:green;'>" + finalScore.toFixed(2) + "%</b>");
+
+                } else {
+                    $("#message").html("Sorry, but you did not achieve a passing score :( You need at least 75% to pass!")
+                    $("#finalScore").html("<b style='color:red;'>" + finalScore.toFixed(2) + "</b>%");
+                }
+                if (incorrect.length > 0) {
+                    $("#incorrectedChoice").html("<b>You should review these words: </b><small class='text-muted'>" + incorrect.join(", ") + "</small>")
+                }
+            }
+
+            $("#playagain").click(function () {
+                $("#selectlevel").show();
+                $("#endResult").hide();
+                $("#message").empty();
+                $("#finalScore").empty();
+                $("#incorrectedChoice").empty();
+                tempList = [];
+                incorrect = [];
+                score = 0;
+            });// end function
+
+            $("#next").click(function () {
+                if (tempList.length < 4) {
+                    $("#answer").text("done");
+                    $("#endResult").show();
+                    displayResult();
+                    $("#startquiz").hide();
+                    $("#selectlevel").hide();
+                } else {
+                    setTimeout(function () {
+                            getQuiz();
+                        },
+                        500);
+                }
+                
+
+                $("#startquiz").fadeOut();
+            }); // end function
+
+
+            function getDefinition(word) {
+                return $.ajax({
+                    url: "/api/dictionary/" + word,
+                    method: "GET",
+                    success: function (data) {
+                        if (data[0].meanings.length > 0) {
+                            $("#getDefinition").text(data[0].meanings[0].definitions[0].definition);
+                        } else {
+                            getQuiz();
+                        }
+                    },
+                    error: function () {
+                        getQuiz();
+                    }
+                });
+            }; // end function getDefinition()
+
+
+            function getWord(word) {
+                return $.ajax({
+                    url: "/api/dictionary/" + word,
+                    method: "GET",
+                    success: function (data) {
+                        if (data[0].meanings.length > 0) {
+                            $("#definition").text(data[0].meanings[0].definitions[0].definition)
+                        } else {
+                            getQuiz();
+                        }
+                    },
+                    error: function () {
+                        getQuiz();
+                    }
+                });
+            }; // end function getWord()
+
+        }); // end document
+
+        $(function () {
+            var loading = $('#loadbar').hide();
+            $(document)
+                .ajaxStart(function () {
+                    loading.show();
+                }).ajaxStop(function () {
+                    loading.hide();
+                });
+
+
+            function checking(ck) {
+                if (ck != answer)
+                    return true;
+                else
+                    return false;
+            };
+        });
+
+    </script>
+}

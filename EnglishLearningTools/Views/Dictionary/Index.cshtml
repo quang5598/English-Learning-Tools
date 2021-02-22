@@ -1,0 +1,345 @@
+﻿@*@model string*@
+@using Newtonsoft.Json
+@model EnglishLearningTools.Models.ViewModel.ListsViewModel
+
+@{
+    ViewBag.Title = "Index";
+}
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+<h1>Dictionary</h1>
+
+@if (Model != null && Model.ListDictionary != null)
+{
+    <!-- Modal -->
+    <div class="modal fade" id="signedIn" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h3 class="modal-title text-center" id="exampleModalLabel">Choose Which List You Want To Add</h3>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+                <div class="modal-body">
+                    <div class="list-group">
+                        @foreach (var list in Model.ListDictionary)
+                        {
+                        <button data-dismiss="modal" id="@list.Key" type="button" class="list-group-item list-group-item-action addword">@list.Value</button>
+                        }
+                    </div>
+                    
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Modal -->
+}
+else
+{
+    <!-- Modal -->
+    <div class="modal fade" id="signIn" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h3 class="modal-title text-center" id="exampleModalLabel">Please Sign In to Add</h3>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+                <div class="modal-body text-center">
+                    <div class="list-group">
+                        <button type="button" class="btn btn-secondary btn-lg">
+                            @Html.ActionLink("Sign In","Login","Account")
+                        </button>
+
+                        <button type="button" class="btn btn-secondary btn-lg">
+                            @Html.ActionLink("Register", "Register", "Account")
+                        </button>
+                    </div>
+                    
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Modal -->
+}
+
+
+<div class="input-group input-group-lg">
+    <input type="text" id="query" class="form-control twitter-typeahead" style="height: 4.3em;">
+    <span class="input-group-btn">
+        <button type="submit" class="btn btn-primary btn-sm" id="submit" >
+            Search
+        </button>
+    </span>
+</div>
+<hr />
+
+<h1 class="fw-bold" id="getWord"></h1>
+<h3><small class="text-muted " id="IPA"></small></h3>
+
+<h1></h1>
+<div id="mainDiv">
+</div>
+<div id="loading"><img src="https://mir-s3-cdn-cf.behance.net/project_modules/disp/35771931234507.564a1d2403b3a.gif" /></div>
+<div class="alert alert-success" id="success-alert">
+    <button type="button" class="close" data-dismiss="alert">x</button>
+    <strong id="theword"></strong> has been added to your list!
+</div>
+
+<div class="alert alert-danger" id="error-alert">
+    <button type="button" class="close" data-dismiss="alert">x</button>
+    <strong id="errorword"> </strong> is already on your list!
+</div>
+@section scripts
+{
+    <script>
+
+        $(document).ready(function() {
+            $("#success-alert").hide();
+            $("#error-alert").hide();
+            var state = "";
+            var currentWord = "";
+
+            if (@Html.Raw(JsonConvert.SerializeObject(this.Model)) != null) {
+                var model = @Html.Raw(JsonConvert.SerializeObject(this.Model.Word));
+            }
+
+
+            $(".addword").click(function() {
+                var id = this.id;
+
+                $.ajax({
+                    url: "/api/dictionary?word=" + currentWord + "&&id=" + id,
+                    type: "POST",
+                    processData: false,
+                    success: function () {
+                        $("#theword").text(currentWord);
+                        $("#success-alert").fadeTo(2000, 500).slideUp(500, function () {
+                            $("#success-alert").slideUp(500)
+                        })
+                        
+                    },
+                    error: function () {
+                        $("#errorword").text(currentWord);
+                        $("#error-alert").fadeTo(2000, 500).slideUp(500, function () {
+                            $("#error-alert").slideUp(500)
+                        })
+                    }
+                }); // end ajax
+
+            }); // end click event
+            if (model === "") {
+                getRandomWord();
+
+            } else {
+                getWord(model);
+                state = "inApiCall"
+            }
+
+            function getRandomWord() {
+                state = "random";
+                $.ajax({
+                    url: "https://random-word-api.herokuapp.com/word?number=1&swear=0",
+                    method: "GET",
+                    success: function(data) {
+                        getWord(data);
+
+                    },
+
+                    error: function() {
+
+                        getRandomWord();
+                    }
+                }); // end outer ajax
+            }
+
+
+            var words = new Bloodhound({
+                datumTokenizer: Bloodhound.tokenizers.obj.whitespace('word'), // get value
+                queryTokenizer: Bloodhound.tokenizers.whitespace,
+                remote: {
+                    url: 'https://api.datamuse.com/sug?s=%QUERY', // What ever the user type in the text box will be placed here at run time
+                    wildcard: '%QUERY'
+                }
+            });
+
+            $('#query').typeahead({ // Get reference to the text box
+                    minLength: 4, // display typeahead when user type at least is 4
+                    highlight: true
+                },
+                {
+                    name: 'words',
+                    display: 'word',
+                    source: words
+                }).on("typeahead:select",
+                function() {
+                    $("#submit").trigger('click');
+                });
+
+            function getWord(data) {
+                return $.ajax({
+                    url: "/api/dictionary/" + data,
+                    method: "GET",
+                    success: function(data) {
+                        $("#IPA").empty();
+                        $("#mainDiv").empty();
+                        currentWord = data[0].word;
+                        var counter = 0;
+                        var listCounter = 0;
+                        var meanings = data[0].meanings;
+                        var phonetics = data[0].phonetics;
+                        if (typeof meanings !== 'undefined' && meanings.length > 0) {
+                            $("#getWord").html(data[0].word)
+
+                            if (typeof phonetics !== 'undefined' && phonetics.length > 0) {
+                                $("#getWord").append("<button  onclick='play()' class='button1 '>" +
+                                    "<audio id='audio' src ='" +
+                                    phonetics[0].audio +
+                                    "'></audio><span class='glyphicon glyphicon-volume-up' " +
+                                    "aria-hidden='true'></span></button>")
+                                $("#IPA").text(phonetics[0].text)
+                            }
+                            if ('@Request.IsAuthenticated' === 'True') {
+                                $("#getWord").append("<button id='addWord' class='button1 pull-right'" +
+                                    "data-toggle='tooltip' data-placement='top' title='Save the Word'" +
+                                    " >" +
+                                    "<span data-toggle='modal' data-target='#signedIn' class='pull-right glyphicon" +
+                                    " glyphicon-plus' aria-hidden='true'></span></button>");
+                            } else {
+                                $("#getWord").append("<button id='addWord' class='button1 pull-right'" +
+                                    "data-toggle='tooltip' data-placement='top' title='Save the Word'" +
+                                    " >" +
+                                    "<span data-toggle='modal' data-target='#signIn' class='pull-right glyphicon" +
+                                    " glyphicon-plus' aria-hidden='true'></span></button>");
+                            }
+
+
+                            meanings.forEach(function(meaning) {
+                                counter++;
+                                $("#mainDiv").append("<div class='' id='divList" + counter + "'></div>");
+                                $("#divList" + counter).append("<div '><h2><em>" +
+                                    data[0].word +
+                                    " <small class='text-muted'>" +
+                                    meaning.partOfSpeech +
+                                    "</small></em></h2></div>");
+
+                                meaning.definitions.forEach(function(definition) {
+                                    listCounter++;
+                                    $("#divList" + counter).append("<ol id='definition" + counter + "' ></ol>");
+                                    $("#definition" + counter).append("<p class='lead'><li id='list" + listCounter + "'>" + definition.definition + "</li></p>");
+                                    $("#list" + listCounter).append("<ul id='unorderedList" + listCounter + "'></ul>")
+                                    if (definition.example) {
+                                        $("#unorderedList" + listCounter).append("<li><b>Example: </b><em>" + definition.example + "</em></li>")
+                                    }
+
+                                    if (typeof definition.synonyms !== 'undefined' && definition.synonyms.length > 0) {
+                                        var synonymList = "";
+                                        definition.synonyms.forEach(synonym => synonymList += "<span class='boxShadow'>" + synonym + "</span> ");
+                                        $("#unorderedList" + listCounter).append("<li><em><strong>Synonyms: </strong>" +
+                                            synonymList +
+                                            "</em></li>")
+                                    }
+
+                                }) // end for each definition
+
+
+                            }) // end for each meaning
+                        } else {
+                            handleError();
+                        }
+                    },
+
+                    error: function() {
+                        handleError();
+                    }
+                }); // end inner ajax
+            }
+
+            function handleError() {
+
+                if (state === "button" || state === "inApiCall") {
+                    $("#mainDiv").empty();
+                    $("#getWord").empty();
+                    $("#IPA").empty();
+                    $("#mainDiv").append("<h1 class='text-center'>We could not find definitions for the word you were looking for. Please try another word!</h1>")
+                } else {
+                    state = "random";
+                    getRandomWord();
+                }
+            }
+
+            $("#query").keyup(function(event) {
+                if (event.keyCode === 13) {
+                    $("#submit").click();
+                }
+            });
+            $("#submit").click(function() {
+                state = "button";
+                getWord($("#query").val());
+            }); // end click button event
+
+            $("#addWord").click(function() {
+
+            })
+
+            $(document).ajaxStart(function() {
+                $("#loading").show();
+            })
+            $(document).ajaxStop(function() {
+                $("#loading").hide();
+            });
+        }); // end document
+
+        function play() {
+            var audio = document.getElementById("audio");
+            audio.play();
+        }
+    </script>
+
+    <style>
+
+        .twitter-typeahead > .form-control {
+            width: inherit !important;
+        }
+
+        .twitter-typeahead {
+            float: left;
+            width: 100%;
+        }
+
+        .button1 {
+            background-color: transparent;
+            border: none;
+        }
+
+        .boxShadow {
+            border: 2px #E0E0E0 none;
+            display: inline;
+            border-radius: 25px;
+            background: #F5F5F5;
+            padding: 2px;
+            line-height: 15px;
+        }
+
+        .tableBackground {
+            background-color: #F8F8F8;
+        }
+
+        .br {
+            background-color: white;
+        }
+
+        ul {
+            list-style-type: square;
+        }
+    </style>
+}
+

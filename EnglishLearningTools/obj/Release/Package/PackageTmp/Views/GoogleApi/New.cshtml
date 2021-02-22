@@ -1,0 +1,74 @@
+﻿@model TestGoogleApi.Models.ViewModel.SearchViewModel
+@{
+    ViewBag.Title = "New";
+}
+@*<link href="~/Content/" rel="stylesheet" />*@
+<h1 class="text-center">Sentence Examples</h1>
+
+@using (Html.BeginForm("Search", "GoogleApi", FormMethod.Post, new { onsubmit = "showLoader(this);", @class=" form-group" }))
+{
+        <div class="input-group input-group-lg">
+           
+            @Html.TextBoxFor(s => s.Query, new { @class = "form-control" })
+            <span class="input-group-btn">
+                <button type="submit" id="showCard" class="btn btn-primary">Search</button>
+            </span>
+        </div>
+}
+
+@if (Model != null)
+{
+    foreach (var p in Model.GoogleApis)
+    {
+        <div class="zoom card" id="card">
+            <div class="card-header ">
+                <b class="text-capitalize text-center">@p.Query In a Sentence From @p.Title</b> 
+            </div>
+
+            <div class="card-body">
+                <blockquote class="blockquote mb-5">
+                    <p>
+                        @Html.Raw(p.Snippet)
+                    </p>
+                    <footer  class="blockquote-footer"><a href="@p.Link" target="_blank"><cite title="Source Title">@p.Title</cite></a></footer>
+                </blockquote>
+            </div>
+        </div>
+    }
+}
+
+
+
+<script>
+    var showLoader = function (form) {
+        $("<div />").css({
+            'position': 'fixed',
+            'left': 0,
+            'right': 0,
+            'z-index': '100',
+            'text-align': 'center'
+        }).appendTo(".card")
+            .append(
+                $("<img />").attr("src", "https://mir-s3-cdn-cf.behance.net/project_modules/disp/35771931234507.564a1d2403b3a.gif")
+            );
+    }
+
+
+</script>
+
+@section scripts
+{
+    <script>
+        $(".card").hide();
+        $(".card").each(function(index){
+            $(this).delay(index*500).show(1000);
+        });
+    </script>
+}
+<style>
+    .zoom:hover {
+        background-color: #F8F8F8;
+    }
+
+
+</style>

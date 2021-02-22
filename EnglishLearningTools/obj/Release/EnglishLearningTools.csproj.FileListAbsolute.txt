@@ -1,0 +1,561 @@
+G:\C# Project\EnglishLearningTools\EnglishLearningTools\bin\EnglishLearningTools.dll.config
+G:\C# Project\EnglishLearningTools\EnglishLearningTools\bin\EnglishLearningTools.dll
+G:\C# Project\EnglishLearningTools\EnglishLearningTools\bin\EnglishLearningTools.pdb
+G:\C# Project\EnglishLearningTools\EnglishLearningTools\bin\roslyn\csc.exe
+G:\C# Project\EnglishLearningTools\EnglishLearningTools\bin\roslyn\csc.exe.config
+G:\C# Project\EnglishLearningTools\EnglishLearningTools\bin\roslyn\csc.rsp
+G:\C# Project\EnglishLearningTools\EnglishLearningTools\bin\roslyn\csi.exe
+G:\C# Project\EnglishLearningTools\EnglishLearningTools\bin\roslyn\csi.exe.config
+G:\C# Project\EnglishLearningTools\EnglishLearningTools\bin\roslyn\csi.rsp
+G:\C# Project\EnglishLearningTools\EnglishLearningTools\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+G:\C# Project\EnglishLearningTools\EnglishLearningTools\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+G:\C# Project\EnglishLearningTools\EnglishLearningTools\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+G:\C# Project\EnglishLearningTools\EnglishLearningTools\bin\roslyn\Microsoft.CodeAnalysis.dll
+G:\C# Project\EnglishLearningTools\EnglishLearningTools\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+G:\C# Project\EnglishLearningTools\EnglishLearningTools\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+G:\C# Project\EnglishLearningTools\EnglishLearningTools\bin\roslyn\Microsoft.CSharp.Core.targets
+G:\C# Project\EnglishLearningTools\EnglishLearningTools\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+G:\C# Project\EnglishLearningTools\EnglishLearningTools\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+G:\C# Project\EnglishLearningTools\EnglishLearningTools\bin\roslyn\Microsoft.Managed.Core.targets
+G:\C# Project\EnglishLearningTools\EnglishLearningTools\bin\roslyn\Microsoft.VisualBasic.Core.targets
+G:\C# Project\EnglishLearningTools\EnglishLearningTools\bin\roslyn\Microsoft.Win32.Primitives.dll
+G:\C# Project\EnglishLearningTools\EnglishLearningTools\bin\roslyn\System.AppContext.dll
+G:\C# Project\EnglishLearningTools\EnglishLearningTools\bin\roslyn\System.Collections.Immutable.dll
+G:\C# Project\EnglishLearningTools\EnglishLearningTools\bin\roslyn\System.Console.dll
+G:\C# Project\EnglishLearningTools\EnglishLearningTools\bin\roslyn\System.Diagnostics.DiagnosticSource.dll
+G:\C# Project\EnglishLearningTools\EnglishLearningTools\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+G:\C# Project\EnglishLearningTools\EnglishLearningTools\bin\roslyn\System.Diagnostics.StackTrace.dll
+G:\C# Project\EnglishLearningTools\EnglishLearningTools\bin\roslyn\System.Globalization.Calendars.dll
+G:\C# Project\EnglishLearningTools\EnglishLearningTools\bin\roslyn\System.IO.Compression.dll
+G:\C# Project\EnglishLearningTools\EnglishLearningTools\bin\roslyn\System.IO.Compression.ZipFile.dll
+G:\C# Project\EnglishLearningTools\EnglishLearningTools\bin\roslyn\System.IO.FileSystem.dll
+G:\C# Project\EnglishLearningTools\EnglishLearningTools\bin\roslyn\System.IO.FileSystem.Primitives.dll
+G:\C# Project\EnglishLearningTools\EnglishLearningTools\bin\roslyn\System.Net.Http.dll
+G:\C# Project\EnglishLearningTools\EnglishLearningTools\bin\roslyn\System.Net.Sockets.dll
+G:\C# Project\EnglishLearningTools\EnglishLearningTools\bin\roslyn\System.Reflection.Metadata.dll
+G:\C# Project\EnglishLearningTools\EnglishLearningTools\bin\roslyn\System.Runtime.InteropServices.RuntimeInformation.dll
+G:\C# Project\EnglishLearningTools\EnglishLearningTools\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+G:\C# Project\EnglishLearningTools\EnglishLearningTools\bin\roslyn\System.Security.Cryptography.Encoding.dll
+G:\C# Project\EnglishLearningTools\EnglishLearningTools\bin\roslyn\System.Security.Cryptography.Primitives.dll
+G:\C# Project\EnglishLearningTools\EnglishLearningTools\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+G:\C# Project\EnglishLearningTools\EnglishLearningTools\bin\roslyn\System.Text.Encoding.CodePages.dll
+G:\C# Project\EnglishLearningTools\EnglishLearningTools\bin\roslyn\System.Threading.Tasks.Extensions.dll
+G:\C# Project\EnglishLearningTools\EnglishLearningTools\bin\roslyn\System.ValueTuple.dll
+G:\C# Project\EnglishLearningTools\EnglishLearningTools\bin\roslyn\System.Xml.ReaderWriter.dll
+G:\C# Project\EnglishLearningTools\EnglishLearningTools\bin\roslyn\System.Xml.XmlDocument.dll
+G:\C# Project\EnglishLearningTools\EnglishLearningTools\bin\roslyn\System.Xml.XPath.dll
+G:\C# Project\EnglishLearningTools\EnglishLearningTools\bin\roslyn\System.Xml.XPath.XDocument.dll
+G:\C# Project\EnglishLearningTools\EnglishLearningTools\bin\roslyn\vbc.exe
+G:\C# Project\EnglishLearningTools\EnglishLearningTools\bin\roslyn\vbc.exe.config
+G:\C# Project\EnglishLearningTools\EnglishLearningTools\bin\roslyn\vbc.rsp
+G:\C# Project\EnglishLearningTools\EnglishLearningTools\bin\roslyn\VBCSCompiler.exe
+G:\C# Project\EnglishLearningTools\EnglishLearningTools\bin\roslyn\VBCSCompiler.exe.config
+G:\C# Project\EnglishLearningTools\EnglishLearningTools\bin\Antlr3.Runtime.dll
+G:\C# Project\EnglishLearningTools\EnglishLearningTools\bin\EntityFramework.dll
+G:\C# Project\EnglishLearningTools\EnglishLearningTools\bin\EntityFramework.SqlServer.dll
+G:\C# Project\EnglishLearningTools\EnglishLearningTools\bin\Google.Api.Gax.dll
+G:\C# Project\EnglishLearningTools\EnglishLearningTools\bin\Google.Api.Gax.Rest.dll
+G:\C# Project\EnglishLearningTools\EnglishLearningTools\bin\Google.Apis.Auth.dll
+G:\C# Project\EnglishLearningTools\EnglishLearningTools\bin\Google.Apis.Auth.PlatformServices.dll
+G:\C# Project\EnglishLearningTools\EnglishLearningTools\bin\Google.Apis.Core.dll
+G:\C# Project\EnglishLearningTools\EnglishLearningTools\bin\Google.Apis.Customsearch.v1.dll
+G:\C# Project\EnglishLearningTools\EnglishLearningTools\bin\Google.Apis.CustomSearchAPI.v1.dll
+G:\C# Project\EnglishLearningTools\EnglishLearningTools\bin\Google.Apis.dll
+G:\C# Project\EnglishLearningTools\EnglishLearningTools\bin\Google.Apis.PlatformServices.dll
+G:\C# Project\EnglishLearningTools\EnglishLearningTools\bin\Google.Apis.Translate.v2.dll
+G:\C# Project\EnglishLearningTools\EnglishLearningTools\bin\Google.Cloud.Translation.V2.dll
+G:\C# Project\EnglishLearningTools\EnglishLearningTools\bin\MerriamWebster.NET.dll
+G:\C# Project\EnglishLearningTools\EnglishLearningTools\bin\Microsoft.AspNet.Identity.Core.dll
+G:\C# Project\EnglishLearningTools\EnglishLearningTools\bin\Microsoft.AspNet.Identity.EntityFramework.dll
+G:\C# Project\EnglishLearningTools\EnglishLearningTools\bin\Microsoft.AspNet.Identity.Owin.dll
+G:\C# Project\EnglishLearningTools\EnglishLearningTools\bin\Microsoft.Bcl.AsyncInterfaces.dll
+G:\C# Project\EnglishLearningTools\EnglishLearningTools\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+G:\C# Project\EnglishLearningTools\EnglishLearningTools\bin\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+G:\C# Project\EnglishLearningTools\EnglishLearningTools\bin\Microsoft.Extensions.DependencyInjection.dll
+G:\C# Project\EnglishLearningTools\EnglishLearningTools\bin\Microsoft.Extensions.Http.dll
+G:\C# Project\EnglishLearningTools\EnglishLearningTools\bin\Microsoft.Extensions.Logging.Abstractions.dll
+G:\C# Project\EnglishLearningTools\EnglishLearningTools\bin\Microsoft.Extensions.Logging.dll
+G:\C# Project\EnglishLearningTools\EnglishLearningTools\bin\Microsoft.Extensions.Options.dll
+G:\C# Project\EnglishLearningTools\EnglishLearningTools\bin\Microsoft.Extensions.Primitives.dll
+G:\C# Project\EnglishLearningTools\EnglishLearningTools\bin\Microsoft.Owin.dll
+G:\C# Project\EnglishLearningTools\EnglishLearningTools\bin\Microsoft.Owin.Host.SystemWeb.dll
+G:\C# Project\EnglishLearningTools\EnglishLearningTools\bin\Microsoft.Owin.Security.Cookies.dll
+G:\C# Project\EnglishLearningTools\EnglishLearningTools\bin\Microsoft.Owin.Security.dll
+G:\C# Project\EnglishLearningTools\EnglishLearningTools\bin\Microsoft.Owin.Security.Facebook.dll
+G:\C# Project\EnglishLearningTools\EnglishLearningTools\bin\Microsoft.Owin.Security.Google.dll
+G:\C# Project\EnglishLearningTools\EnglishLearningTools\bin\Microsoft.Owin.Security.MicrosoftAccount.dll
+G:\C# Project\EnglishLearningTools\EnglishLearningTools\bin\Microsoft.Owin.Security.OAuth.dll
+G:\C# Project\EnglishLearningTools\EnglishLearningTools\bin\Microsoft.Owin.Security.Twitter.dll
+G:\C# Project\EnglishLearningTools\EnglishLearningTools\bin\Microsoft.Web.Infrastructure.dll
+G:\C# Project\EnglishLearningTools\EnglishLearningTools\bin\Newtonsoft.Json.dll
+G:\C# Project\EnglishLearningTools\EnglishLearningTools\bin\Owin.dll
+G:\C# Project\EnglishLearningTools\EnglishLearningTools\bin\System.Buffers.dll
+G:\C# Project\EnglishLearningTools\EnglishLearningTools\bin\System.Diagnostics.DiagnosticSource.dll
+G:\C# Project\EnglishLearningTools\EnglishLearningTools\bin\System.Memory.dll
+G:\C# Project\EnglishLearningTools\EnglishLearningTools\bin\System.Net.Http.Formatting.dll
+G:\C# Project\EnglishLearningTools\EnglishLearningTools\bin\System.Numerics.Vectors.dll
+G:\C# Project\EnglishLearningTools\EnglishLearningTools\bin\System.Runtime.CompilerServices.Unsafe.dll
+G:\C# Project\EnglishLearningTools\EnglishLearningTools\bin\System.Threading.Tasks.Extensions.dll
+G:\C# Project\EnglishLearningTools\EnglishLearningTools\bin\System.ValueTuple.dll
+G:\C# Project\EnglishLearningTools\EnglishLearningTools\bin\System.Web.Helpers.dll
+G:\C# Project\EnglishLearningTools\EnglishLearningTools\bin\System.Web.Http.dll
+G:\C# Project\EnglishLearningTools\EnglishLearningTools\bin\System.Web.Http.WebHost.dll
+G:\C# Project\EnglishLearningTools\EnglishLearningTools\bin\System.Web.Mvc.dll
+G:\C# Project\EnglishLearningTools\EnglishLearningTools\bin\System.Web.Optimization.dll
+G:\C# Project\EnglishLearningTools\EnglishLearningTools\bin\System.Web.Razor.dll
+G:\C# Project\EnglishLearningTools\EnglishLearningTools\bin\System.Web.WebPages.Deployment.dll
+G:\C# Project\EnglishLearningTools\EnglishLearningTools\bin\System.Web.WebPages.dll
+G:\C# Project\EnglishLearningTools\EnglishLearningTools\bin\System.Web.WebPages.Razor.dll
+G:\C# Project\EnglishLearningTools\EnglishLearningTools\bin\WebGrease.dll
+G:\C# Project\EnglishLearningTools\EnglishLearningTools\bin\Antlr3.Runtime.pdb
+G:\C# Project\EnglishLearningTools\EnglishLearningTools\bin\EntityFramework.xml
+G:\C# Project\EnglishLearningTools\EnglishLearningTools\bin\EntityFramework.SqlServer.xml
+G:\C# Project\EnglishLearningTools\EnglishLearningTools\bin\Google.Api.Gax.pdb
+G:\C# Project\EnglishLearningTools\EnglishLearningTools\bin\Google.Api.Gax.xml
+G:\C# Project\EnglishLearningTools\EnglishLearningTools\bin\Google.Api.Gax.Rest.pdb
+G:\C# Project\EnglishLearningTools\EnglishLearningTools\bin\Google.Api.Gax.Rest.xml
+G:\C# Project\EnglishLearningTools\EnglishLearningTools\bin\Google.Apis.pdb
+G:\C# Project\EnglishLearningTools\EnglishLearningTools\bin\Google.Apis.xml
+G:\C# Project\EnglishLearningTools\EnglishLearningTools\bin\Google.Apis.Auth.pdb
+G:\C# Project\EnglishLearningTools\EnglishLearningTools\bin\Google.Apis.Auth.xml
+G:\C# Project\EnglishLearningTools\EnglishLearningTools\bin\Google.Apis.Core.pdb
+G:\C# Project\EnglishLearningTools\EnglishLearningTools\bin\Google.Apis.Core.xml
+G:\C# Project\EnglishLearningTools\EnglishLearningTools\bin\Google.Apis.Customsearch.v1.pdb
+G:\C# Project\EnglishLearningTools\EnglishLearningTools\bin\Google.Apis.Customsearch.v1.xml
+G:\C# Project\EnglishLearningTools\EnglishLearningTools\bin\Google.Apis.CustomSearchAPI.v1.pdb
+G:\C# Project\EnglishLearningTools\EnglishLearningTools\bin\Google.Apis.CustomSearchAPI.v1.xml
+G:\C# Project\EnglishLearningTools\EnglishLearningTools\bin\Google.Apis.Translate.v2.pdb
+G:\C# Project\EnglishLearningTools\EnglishLearningTools\bin\Google.Apis.Translate.v2.xml
+G:\C# Project\EnglishLearningTools\EnglishLearningTools\bin\Google.Cloud.Translation.V2.pdb
+G:\C# Project\EnglishLearningTools\EnglishLearningTools\bin\Google.Cloud.Translation.V2.xml
+G:\C# Project\EnglishLearningTools\EnglishLearningTools\bin\Microsoft.AspNet.Identity.Core.xml
+G:\C# Project\EnglishLearningTools\EnglishLearningTools\bin\Microsoft.AspNet.Identity.EntityFramework.xml
+G:\C# Project\EnglishLearningTools\EnglishLearningTools\bin\Microsoft.AspNet.Identity.Owin.xml
+G:\C# Project\EnglishLearningTools\EnglishLearningTools\bin\Microsoft.Bcl.AsyncInterfaces.xml
+G:\C# Project\EnglishLearningTools\EnglishLearningTools\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+G:\C# Project\EnglishLearningTools\EnglishLearningTools\bin\Microsoft.Extensions.DependencyInjection.xml
+G:\C# Project\EnglishLearningTools\EnglishLearningTools\bin\Microsoft.Extensions.DependencyInjection.Abstractions.xml
+G:\C# Project\EnglishLearningTools\EnglishLearningTools\bin\Microsoft.Extensions.Http.xml
+G:\C# Project\EnglishLearningTools\EnglishLearningTools\bin\Microsoft.Extensions.Logging.xml
+G:\C# Project\EnglishLearningTools\EnglishLearningTools\bin\Microsoft.Extensions.Logging.Abstractions.xml
+G:\C# Project\EnglishLearningTools\EnglishLearningTools\bin\Microsoft.Extensions.Options.xml
+G:\C# Project\EnglishLearningTools\EnglishLearningTools\bin\Microsoft.Extensions.Primitives.xml
+G:\C# Project\EnglishLearningTools\EnglishLearningTools\bin\Microsoft.Owin.xml
+G:\C# Project\EnglishLearningTools\EnglishLearningTools\bin\Microsoft.Owin.Host.SystemWeb.xml
+G:\C# Project\EnglishLearningTools\EnglishLearningTools\bin\Microsoft.Owin.Security.xml
+G:\C# Project\EnglishLearningTools\EnglishLearningTools\bin\Microsoft.Owin.Security.Cookies.xml
+G:\C# Project\EnglishLearningTools\EnglishLearningTools\bin\Microsoft.Owin.Security.Facebook.xml
+G:\C# Project\EnglishLearningTools\EnglishLearningTools\bin\Microsoft.Owin.Security.Google.xml
+G:\C# Project\EnglishLearningTools\EnglishLearningTools\bin\Microsoft.Owin.Security.MicrosoftAccount.xml
+G:\C# Project\EnglishLearningTools\EnglishLearningTools\bin\Microsoft.Owin.Security.OAuth.xml
+G:\C# Project\EnglishLearningTools\EnglishLearningTools\bin\Microsoft.Owin.Security.Twitter.xml
+G:\C# Project\EnglishLearningTools\EnglishLearningTools\bin\Newtonsoft.Json.xml
+G:\C# Project\EnglishLearningTools\EnglishLearningTools\bin\System.Buffers.xml
+G:\C# Project\EnglishLearningTools\EnglishLearningTools\bin\System.Diagnostics.DiagnosticSource.xml
+G:\C# Project\EnglishLearningTools\EnglishLearningTools\bin\System.Memory.xml
+G:\C# Project\EnglishLearningTools\EnglishLearningTools\bin\System.Net.Http.Formatting.xml
+G:\C# Project\EnglishLearningTools\EnglishLearningTools\bin\System.Numerics.Vectors.xml
+G:\C# Project\EnglishLearningTools\EnglishLearningTools\bin\System.Runtime.CompilerServices.Unsafe.xml
+G:\C# Project\EnglishLearningTools\EnglishLearningTools\bin\System.Threading.Tasks.Extensions.xml
+G:\C# Project\EnglishLearningTools\EnglishLearningTools\bin\System.ValueTuple.xml
+G:\C# Project\EnglishLearningTools\EnglishLearningTools\bin\System.Web.Helpers.xml
+G:\C# Project\EnglishLearningTools\EnglishLearningTools\bin\System.Web.Http.xml
+G:\C# Project\EnglishLearningTools\EnglishLearningTools\bin\System.Web.Http.WebHost.xml
+G:\C# Project\EnglishLearningTools\EnglishLearningTools\bin\System.Web.Mvc.xml
+G:\C# Project\EnglishLearningTools\EnglishLearningTools\bin\System.Web.Optimization.xml
+G:\C# Project\EnglishLearningTools\EnglishLearningTools\bin\System.Web.Razor.xml
+G:\C# Project\EnglishLearningTools\EnglishLearningTools\bin\System.Web.WebPages.xml
+G:\C# Project\EnglishLearningTools\EnglishLearningTools\bin\System.Web.WebPages.Deployment.xml
+G:\C# Project\EnglishLearningTools\EnglishLearningTools\bin\System.Web.WebPages.Razor.xml
+G:\C# Project\EnglishLearningTools\EnglishLearningTools\obj\Release\EnglishLearningTools.csprojAssemblyReference.cache
+G:\C# Project\EnglishLearningTools\EnglishLearningTools\obj\Release\EnglishLearningTools.csproj.CoreCompileInputs.cache
+G:\C# Project\EnglishLearningTools\EnglishLearningTools\obj\Release\EnglishLearningTools.csproj.CopyComplete
+G:\C# Project\EnglishLearningTools\EnglishLearningTools\obj\Release\EnglishLearningTools.dll
+G:\C# Project\EnglishLearningTools\EnglishLearningTools\obj\Release\EnglishLearningTools.pdb
+G:\C# Project\EnglishLearningTools\EnglishLearningTools\bin\Microsoft.Configuration.ConfigurationBuilders.Base.dll
+G:\C# Project\EnglishLearningTools\EnglishLearningTools\bin\Microsoft.Configuration.ConfigurationBuilders.UserSecrets.dll
+G:\C# Project\EnglishLearningTools\EnglishLearningTools\bin\Microsoft.Configuration.ConfigurationBuilders.Base.xml
+G:\C# Project\EnglishLearningTools\EnglishLearningTools\bin\Microsoft.Configuration.ConfigurationBuilders.UserSecrets.xml
+G:\C# Project\EnglishLearningTools\EnglishLearningTools\obj\Release\EnglishLearningTools.Migrations.InitialCreate.resources
+G:\C# Project\EnglishLearningTools\EnglishLearningTools\obj\Release\EnglishLearningTools.Migrations.initialMigration.resources
+G:\C# Project\EnglishLearningTools\EnglishLearningTools\obj\Release\EnglishLearningTools.csproj.GenerateResource.cache
+G:\C# Project\EnglishLearningTools\EnglishLearningTools\bin\RestSharp.dll
+G:\C# Project\EnglishLearningTools\EnglishLearningTools\bin\RestSharp.xml
+G:\C# Project\EnglishLearningTools\EnglishLearningTools\obj\Release\EnglishLearningTools.Migrations.AddUserListIdToAspNetUsers.resources
+G:\C# Project\EnglishLearningTools\EnglishLearningTools\obj\Release\EnglishLearningTools.Migrations.AddUserListIdToAspNetUsers1.resources
+G:\C# Project\EnglishLearningTools\EnglishLearningTools\obj\Release\EnglishLearningTools.Migrations.AddFieldsToUserLists.resources
+G:\C# Project\EnglishLearningTools\EnglishLearningTools\obj\Release\EnglishLearningTools.Migrations.AddNameToRegister.resources
+G:\C# Project\EnglishLearningTools - Copy\EnglishLearningTools\bin\EnglishLearningTools.dll.config
+G:\C# Project\EnglishLearningTools - Copy\EnglishLearningTools\bin\EnglishLearningTools.dll
+G:\C# Project\EnglishLearningTools - Copy\EnglishLearningTools\bin\EnglishLearningTools.pdb
+G:\C# Project\EnglishLearningTools - Copy\EnglishLearningTools\bin\roslyn\csc.exe
+G:\C# Project\EnglishLearningTools - Copy\EnglishLearningTools\bin\roslyn\csc.exe.config
+G:\C# Project\EnglishLearningTools - Copy\EnglishLearningTools\bin\roslyn\csc.rsp
+G:\C# Project\EnglishLearningTools - Copy\EnglishLearningTools\bin\roslyn\csi.exe
+G:\C# Project\EnglishLearningTools - Copy\EnglishLearningTools\bin\roslyn\csi.exe.config
+G:\C# Project\EnglishLearningTools - Copy\EnglishLearningTools\bin\roslyn\csi.rsp
+G:\C# Project\EnglishLearningTools - Copy\EnglishLearningTools\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+G:\C# Project\EnglishLearningTools - Copy\EnglishLearningTools\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+G:\C# Project\EnglishLearningTools - Copy\EnglishLearningTools\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+G:\C# Project\EnglishLearningTools - Copy\EnglishLearningTools\bin\roslyn\Microsoft.CodeAnalysis.dll
+G:\C# Project\EnglishLearningTools - Copy\EnglishLearningTools\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+G:\C# Project\EnglishLearningTools - Copy\EnglishLearningTools\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+G:\C# Project\EnglishLearningTools - Copy\EnglishLearningTools\bin\roslyn\Microsoft.CSharp.Core.targets
+G:\C# Project\EnglishLearningTools - Copy\EnglishLearningTools\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+G:\C# Project\EnglishLearningTools - Copy\EnglishLearningTools\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+G:\C# Project\EnglishLearningTools - Copy\EnglishLearningTools\bin\roslyn\Microsoft.Managed.Core.targets
+G:\C# Project\EnglishLearningTools - Copy\EnglishLearningTools\bin\roslyn\Microsoft.VisualBasic.Core.targets
+G:\C# Project\EnglishLearningTools - Copy\EnglishLearningTools\bin\roslyn\Microsoft.Win32.Primitives.dll
+G:\C# Project\EnglishLearningTools - Copy\EnglishLearningTools\bin\roslyn\System.AppContext.dll
+G:\C# Project\EnglishLearningTools - Copy\EnglishLearningTools\bin\roslyn\System.Collections.Immutable.dll
+G:\C# Project\EnglishLearningTools - Copy\EnglishLearningTools\bin\roslyn\System.Console.dll
+G:\C# Project\EnglishLearningTools - Copy\EnglishLearningTools\bin\roslyn\System.Diagnostics.DiagnosticSource.dll
+G:\C# Project\EnglishLearningTools - Copy\EnglishLearningTools\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+G:\C# Project\EnglishLearningTools - Copy\EnglishLearningTools\bin\roslyn\System.Diagnostics.StackTrace.dll
+G:\C# Project\EnglishLearningTools - Copy\EnglishLearningTools\bin\roslyn\System.Globalization.Calendars.dll
+G:\C# Project\EnglishLearningTools - Copy\EnglishLearningTools\bin\roslyn\System.IO.Compression.dll
+G:\C# Project\EnglishLearningTools - Copy\EnglishLearningTools\bin\roslyn\System.IO.Compression.ZipFile.dll
+G:\C# Project\EnglishLearningTools - Copy\EnglishLearningTools\bin\roslyn\System.IO.FileSystem.dll
+G:\C# Project\EnglishLearningTools - Copy\EnglishLearningTools\bin\roslyn\System.IO.FileSystem.Primitives.dll
+G:\C# Project\EnglishLearningTools - Copy\EnglishLearningTools\bin\roslyn\System.Net.Http.dll
+G:\C# Project\EnglishLearningTools - Copy\EnglishLearningTools\bin\roslyn\System.Net.Sockets.dll
+G:\C# Project\EnglishLearningTools - Copy\EnglishLearningTools\bin\roslyn\System.Reflection.Metadata.dll
+G:\C# Project\EnglishLearningTools - Copy\EnglishLearningTools\bin\roslyn\System.Runtime.InteropServices.RuntimeInformation.dll
+G:\C# Project\EnglishLearningTools - Copy\EnglishLearningTools\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+G:\C# Project\EnglishLearningTools - Copy\EnglishLearningTools\bin\roslyn\System.Security.Cryptography.Encoding.dll
+G:\C# Project\EnglishLearningTools - Copy\EnglishLearningTools\bin\roslyn\System.Security.Cryptography.Primitives.dll
+G:\C# Project\EnglishLearningTools - Copy\EnglishLearningTools\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+G:\C# Project\EnglishLearningTools - Copy\EnglishLearningTools\bin\roslyn\System.Text.Encoding.CodePages.dll
+G:\C# Project\EnglishLearningTools - Copy\EnglishLearningTools\bin\roslyn\System.Threading.Tasks.Extensions.dll
+G:\C# Project\EnglishLearningTools - Copy\EnglishLearningTools\bin\roslyn\System.ValueTuple.dll
+G:\C# Project\EnglishLearningTools - Copy\EnglishLearningTools\bin\roslyn\System.Xml.ReaderWriter.dll
+G:\C# Project\EnglishLearningTools - Copy\EnglishLearningTools\bin\roslyn\System.Xml.XmlDocument.dll
+G:\C# Project\EnglishLearningTools - Copy\EnglishLearningTools\bin\roslyn\System.Xml.XPath.dll
+G:\C# Project\EnglishLearningTools - Copy\EnglishLearningTools\bin\roslyn\System.Xml.XPath.XDocument.dll
+G:\C# Project\EnglishLearningTools - Copy\EnglishLearningTools\bin\roslyn\vbc.exe
+G:\C# Project\EnglishLearningTools - Copy\EnglishLearningTools\bin\roslyn\vbc.exe.config
+G:\C# Project\EnglishLearningTools - Copy\EnglishLearningTools\bin\roslyn\vbc.rsp
+G:\C# Project\EnglishLearningTools - Copy\EnglishLearningTools\bin\roslyn\VBCSCompiler.exe
+G:\C# Project\EnglishLearningTools - Copy\EnglishLearningTools\bin\roslyn\VBCSCompiler.exe.config
+G:\C# Project\EnglishLearningTools - Copy\EnglishLearningTools\bin\Antlr3.Runtime.dll
+G:\C# Project\EnglishLearningTools - Copy\EnglishLearningTools\bin\EntityFramework.dll
+G:\C# Project\EnglishLearningTools - Copy\EnglishLearningTools\bin\EntityFramework.SqlServer.dll
+G:\C# Project\EnglishLearningTools - Copy\EnglishLearningTools\bin\Google.Api.Gax.dll
+G:\C# Project\EnglishLearningTools - Copy\EnglishLearningTools\bin\Google.Api.Gax.Rest.dll
+G:\C# Project\EnglishLearningTools - Copy\EnglishLearningTools\bin\Google.Apis.Auth.dll
+G:\C# Project\EnglishLearningTools - Copy\EnglishLearningTools\bin\Google.Apis.Auth.PlatformServices.dll
+G:\C# Project\EnglishLearningTools - Copy\EnglishLearningTools\bin\Google.Apis.Core.dll
+G:\C# Project\EnglishLearningTools - Copy\EnglishLearningTools\bin\Google.Apis.Customsearch.v1.dll
+G:\C# Project\EnglishLearningTools - Copy\EnglishLearningTools\bin\Google.Apis.CustomSearchAPI.v1.dll
+G:\C# Project\EnglishLearningTools - Copy\EnglishLearningTools\bin\Google.Apis.dll
+G:\C# Project\EnglishLearningTools - Copy\EnglishLearningTools\bin\Google.Apis.PlatformServices.dll
+G:\C# Project\EnglishLearningTools - Copy\EnglishLearningTools\bin\Google.Apis.Translate.v2.dll
+G:\C# Project\EnglishLearningTools - Copy\EnglishLearningTools\bin\Google.Cloud.Translation.V2.dll
+G:\C# Project\EnglishLearningTools - Copy\EnglishLearningTools\bin\MerriamWebster.NET.dll
+G:\C# Project\EnglishLearningTools - Copy\EnglishLearningTools\bin\Microsoft.AspNet.Identity.Core.dll
+G:\C# Project\EnglishLearningTools - Copy\EnglishLearningTools\bin\Microsoft.AspNet.Identity.EntityFramework.dll
+G:\C# Project\EnglishLearningTools - Copy\EnglishLearningTools\bin\Microsoft.AspNet.Identity.Owin.dll
+G:\C# Project\EnglishLearningTools - Copy\EnglishLearningTools\bin\Microsoft.Bcl.AsyncInterfaces.dll
+G:\C# Project\EnglishLearningTools - Copy\EnglishLearningTools\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+G:\C# Project\EnglishLearningTools - Copy\EnglishLearningTools\bin\Microsoft.Configuration.ConfigurationBuilders.Base.dll
+G:\C# Project\EnglishLearningTools - Copy\EnglishLearningTools\bin\Microsoft.Configuration.ConfigurationBuilders.UserSecrets.dll
+G:\C# Project\EnglishLearningTools - Copy\EnglishLearningTools\bin\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+G:\C# Project\EnglishLearningTools - Copy\EnglishLearningTools\bin\Microsoft.Extensions.DependencyInjection.dll
+G:\C# Project\EnglishLearningTools - Copy\EnglishLearningTools\bin\Microsoft.Extensions.Http.dll
+G:\C# Project\EnglishLearningTools - Copy\EnglishLearningTools\bin\Microsoft.Extensions.Logging.Abstractions.dll
+G:\C# Project\EnglishLearningTools - Copy\EnglishLearningTools\bin\Microsoft.Extensions.Logging.dll
+G:\C# Project\EnglishLearningTools - Copy\EnglishLearningTools\bin\Microsoft.Extensions.Options.dll
+G:\C# Project\EnglishLearningTools - Copy\EnglishLearningTools\bin\Microsoft.Extensions.Primitives.dll
+G:\C# Project\EnglishLearningTools - Copy\EnglishLearningTools\bin\Microsoft.Owin.dll
+G:\C# Project\EnglishLearningTools - Copy\EnglishLearningTools\bin\Microsoft.Owin.Host.SystemWeb.dll
+G:\C# Project\EnglishLearningTools - Copy\EnglishLearningTools\bin\Microsoft.Owin.Security.Cookies.dll
+G:\C# Project\EnglishLearningTools - Copy\EnglishLearningTools\bin\Microsoft.Owin.Security.dll
+G:\C# Project\EnglishLearningTools - Copy\EnglishLearningTools\bin\Microsoft.Owin.Security.Facebook.dll
+G:\C# Project\EnglishLearningTools - Copy\EnglishLearningTools\bin\Microsoft.Owin.Security.Google.dll
+G:\C# Project\EnglishLearningTools - Copy\EnglishLearningTools\bin\Microsoft.Owin.Security.MicrosoftAccount.dll
+G:\C# Project\EnglishLearningTools - Copy\EnglishLearningTools\bin\Microsoft.Owin.Security.OAuth.dll
+G:\C# Project\EnglishLearningTools - Copy\EnglishLearningTools\bin\Microsoft.Owin.Security.Twitter.dll
+G:\C# Project\EnglishLearningTools - Copy\EnglishLearningTools\bin\Microsoft.Web.Infrastructure.dll
+G:\C# Project\EnglishLearningTools - Copy\EnglishLearningTools\bin\Newtonsoft.Json.dll
+G:\C# Project\EnglishLearningTools - Copy\EnglishLearningTools\bin\Owin.dll
+G:\C# Project\EnglishLearningTools - Copy\EnglishLearningTools\bin\RestSharp.dll
+G:\C# Project\EnglishLearningTools - Copy\EnglishLearningTools\bin\System.Buffers.dll
+G:\C# Project\EnglishLearningTools - Copy\EnglishLearningTools\bin\System.Diagnostics.DiagnosticSource.dll
+G:\C# Project\EnglishLearningTools - Copy\EnglishLearningTools\bin\System.Memory.dll
+G:\C# Project\EnglishLearningTools - Copy\EnglishLearningTools\bin\System.Net.Http.Formatting.dll
+G:\C# Project\EnglishLearningTools - Copy\EnglishLearningTools\bin\System.Numerics.Vectors.dll
+G:\C# Project\EnglishLearningTools - Copy\EnglishLearningTools\bin\System.Runtime.CompilerServices.Unsafe.dll
+G:\C# Project\EnglishLearningTools - Copy\EnglishLearningTools\bin\System.Threading.Tasks.Extensions.dll
+G:\C# Project\EnglishLearningTools - Copy\EnglishLearningTools\bin\System.ValueTuple.dll
+G:\C# Project\EnglishLearningTools - Copy\EnglishLearningTools\bin\System.Web.Helpers.dll
+G:\C# Project\EnglishLearningTools - Copy\EnglishLearningTools\bin\System.Web.Http.dll
+G:\C# Project\EnglishLearningTools - Copy\EnglishLearningTools\bin\System.Web.Http.WebHost.dll
+G:\C# Project\EnglishLearningTools - Copy\EnglishLearningTools\bin\System.Web.Mvc.dll
+G:\C# Project\EnglishLearningTools - Copy\EnglishLearningTools\bin\System.Web.Optimization.dll
+G:\C# Project\EnglishLearningTools - Copy\EnglishLearningTools\bin\System.Web.Razor.dll
+G:\C# Project\EnglishLearningTools - Copy\EnglishLearningTools\bin\System.Web.WebPages.Deployment.dll
+G:\C# Project\EnglishLearningTools - Copy\EnglishLearningTools\bin\System.Web.WebPages.dll
+G:\C# Project\EnglishLearningTools - Copy\EnglishLearningTools\bin\System.Web.WebPages.Razor.dll
+G:\C# Project\EnglishLearningTools - Copy\EnglishLearningTools\bin\WebGrease.dll
+G:\C# Project\EnglishLearningTools - Copy\EnglishLearningTools\bin\Antlr3.Runtime.pdb
+G:\C# Project\EnglishLearningTools - Copy\EnglishLearningTools\bin\EntityFramework.xml
+G:\C# Project\EnglishLearningTools - Copy\EnglishLearningTools\bin\EntityFramework.SqlServer.xml
+G:\C# Project\EnglishLearningTools - Copy\EnglishLearningTools\bin\Google.Api.Gax.pdb
+G:\C# Project\EnglishLearningTools - Copy\EnglishLearningTools\bin\Google.Api.Gax.xml
+G:\C# Project\EnglishLearningTools - Copy\EnglishLearningTools\bin\Google.Api.Gax.Rest.pdb
+G:\C# Project\EnglishLearningTools - Copy\EnglishLearningTools\bin\Google.Api.Gax.Rest.xml
+G:\C# Project\EnglishLearningTools - Copy\EnglishLearningTools\bin\Google.Apis.pdb
+G:\C# Project\EnglishLearningTools - Copy\EnglishLearningTools\bin\Google.Apis.xml
+G:\C# Project\EnglishLearningTools - Copy\EnglishLearningTools\bin\Google.Apis.Auth.pdb
+G:\C# Project\EnglishLearningTools - Copy\EnglishLearningTools\bin\Google.Apis.Auth.xml
+G:\C# Project\EnglishLearningTools - Copy\EnglishLearningTools\bin\Google.Apis.Core.pdb
+G:\C# Project\EnglishLearningTools - Copy\EnglishLearningTools\bin\Google.Apis.Core.xml
+G:\C# Project\EnglishLearningTools - Copy\EnglishLearningTools\bin\Google.Apis.Customsearch.v1.pdb
+G:\C# Project\EnglishLearningTools - Copy\EnglishLearningTools\bin\Google.Apis.Customsearch.v1.xml
+G:\C# Project\EnglishLearningTools - Copy\EnglishLearningTools\bin\Google.Apis.CustomSearchAPI.v1.pdb
+G:\C# Project\EnglishLearningTools - Copy\EnglishLearningTools\bin\Google.Apis.CustomSearchAPI.v1.xml
+G:\C# Project\EnglishLearningTools - Copy\EnglishLearningTools\bin\Google.Apis.Translate.v2.pdb
+G:\C# Project\EnglishLearningTools - Copy\EnglishLearningTools\bin\Google.Apis.Translate.v2.xml
+G:\C# Project\EnglishLearningTools - Copy\EnglishLearningTools\bin\Google.Cloud.Translation.V2.pdb
+G:\C# Project\EnglishLearningTools - Copy\EnglishLearningTools\bin\Google.Cloud.Translation.V2.xml
+G:\C# Project\EnglishLearningTools - Copy\EnglishLearningTools\bin\Microsoft.AspNet.Identity.Core.xml
+G:\C# Project\EnglishLearningTools - Copy\EnglishLearningTools\bin\Microsoft.AspNet.Identity.EntityFramework.xml
+G:\C# Project\EnglishLearningTools - Copy\EnglishLearningTools\bin\Microsoft.AspNet.Identity.Owin.xml
+G:\C# Project\EnglishLearningTools - Copy\EnglishLearningTools\bin\Microsoft.Bcl.AsyncInterfaces.xml
+G:\C# Project\EnglishLearningTools - Copy\EnglishLearningTools\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+G:\C# Project\EnglishLearningTools - Copy\EnglishLearningTools\bin\Microsoft.Configuration.ConfigurationBuilders.Base.xml
+G:\C# Project\EnglishLearningTools - Copy\EnglishLearningTools\bin\Microsoft.Configuration.ConfigurationBuilders.UserSecrets.xml
+G:\C# Project\EnglishLearningTools - Copy\EnglishLearningTools\bin\Microsoft.Extensions.DependencyInjection.xml
+G:\C# Project\EnglishLearningTools - Copy\EnglishLearningTools\bin\Microsoft.Extensions.DependencyInjection.Abstractions.xml
+G:\C# Project\EnglishLearningTools - Copy\EnglishLearningTools\bin\Microsoft.Extensions.Http.xml
+G:\C# Project\EnglishLearningTools - Copy\EnglishLearningTools\bin\Microsoft.Extensions.Logging.xml
+G:\C# Project\EnglishLearningTools - Copy\EnglishLearningTools\bin\Microsoft.Extensions.Logging.Abstractions.xml
+G:\C# Project\EnglishLearningTools - Copy\EnglishLearningTools\bin\Microsoft.Extensions.Options.xml
+G:\C# Project\EnglishLearningTools - Copy\EnglishLearningTools\bin\Microsoft.Extensions.Primitives.xml
+G:\C# Project\EnglishLearningTools - Copy\EnglishLearningTools\bin\Microsoft.Owin.xml
+G:\C# Project\EnglishLearningTools - Copy\EnglishLearningTools\bin\Microsoft.Owin.Host.SystemWeb.xml
+G:\C# Project\EnglishLearningTools - Copy\EnglishLearningTools\bin\Microsoft.Owin.Security.xml
+G:\C# Project\EnglishLearningTools - Copy\EnglishLearningTools\bin\Microsoft.Owin.Security.Cookies.xml
+G:\C# Project\EnglishLearningTools - Copy\EnglishLearningTools\bin\Microsoft.Owin.Security.Facebook.xml
+G:\C# Project\EnglishLearningTools - Copy\EnglishLearningTools\bin\Microsoft.Owin.Security.Google.xml
+G:\C# Project\EnglishLearningTools - Copy\EnglishLearningTools\bin\Microsoft.Owin.Security.MicrosoftAccount.xml
+G:\C# Project\EnglishLearningTools - Copy\EnglishLearningTools\bin\Microsoft.Owin.Security.OAuth.xml
+G:\C# Project\EnglishLearningTools - Copy\EnglishLearningTools\bin\Microsoft.Owin.Security.Twitter.xml
+G:\C# Project\EnglishLearningTools - Copy\EnglishLearningTools\bin\Newtonsoft.Json.xml
+G:\C# Project\EnglishLearningTools - Copy\EnglishLearningTools\bin\RestSharp.xml
+G:\C# Project\EnglishLearningTools - Copy\EnglishLearningTools\bin\System.Buffers.xml
+G:\C# Project\EnglishLearningTools - Copy\EnglishLearningTools\bin\System.Diagnostics.DiagnosticSource.xml
+G:\C# Project\EnglishLearningTools - Copy\EnglishLearningTools\bin\System.Memory.xml
+G:\C# Project\EnglishLearningTools - Copy\EnglishLearningTools\bin\System.Net.Http.Formatting.xml
+G:\C# Project\EnglishLearningTools - Copy\EnglishLearningTools\bin\System.Numerics.Vectors.xml
+G:\C# Project\EnglishLearningTools - Copy\EnglishLearningTools\bin\System.Runtime.CompilerServices.Unsafe.xml
+G:\C# Project\EnglishLearningTools - Copy\EnglishLearningTools\bin\System.Threading.Tasks.Extensions.xml
+G:\C# Project\EnglishLearningTools - Copy\EnglishLearningTools\bin\System.ValueTuple.xml
+G:\C# Project\EnglishLearningTools - Copy\EnglishLearningTools\bin\System.Web.Helpers.xml
+G:\C# Project\EnglishLearningTools - Copy\EnglishLearningTools\bin\System.Web.Http.xml
+G:\C# Project\EnglishLearningTools - Copy\EnglishLearningTools\bin\System.Web.Http.WebHost.xml
+G:\C# Project\EnglishLearningTools - Copy\EnglishLearningTools\bin\System.Web.Mvc.xml
+G:\C# Project\EnglishLearningTools - Copy\EnglishLearningTools\bin\System.Web.Optimization.xml
+G:\C# Project\EnglishLearningTools - Copy\EnglishLearningTools\bin\System.Web.Razor.xml
+G:\C# Project\EnglishLearningTools - Copy\EnglishLearningTools\bin\System.Web.WebPages.xml
+G:\C# Project\EnglishLearningTools - Copy\EnglishLearningTools\bin\System.Web.WebPages.Deployment.xml
+G:\C# Project\EnglishLearningTools - Copy\EnglishLearningTools\bin\System.Web.WebPages.Razor.xml
+G:\C# Project\EnglishLearningTools - Copy\EnglishLearningTools\obj\Release\EnglishLearningTools.csprojAssemblyReference.cache
+G:\C# Project\EnglishLearningTools - Copy\EnglishLearningTools\obj\Release\EnglishLearningTools.Migrations.InitialCreate.resources
+G:\C# Project\EnglishLearningTools - Copy\EnglishLearningTools\obj\Release\EnglishLearningTools.Migrations.initialMigration.resources
+G:\C# Project\EnglishLearningTools - Copy\EnglishLearningTools\obj\Release\EnglishLearningTools.Migrations.AddUserListIdToAspNetUsers.resources
+G:\C# Project\EnglishLearningTools - Copy\EnglishLearningTools\obj\Release\EnglishLearningTools.Migrations.AddUserListIdToAspNetUsers1.resources
+G:\C# Project\EnglishLearningTools - Copy\EnglishLearningTools\obj\Release\EnglishLearningTools.Migrations.AddFieldsToUserLists.resources
+G:\C# Project\EnglishLearningTools - Copy\EnglishLearningTools\obj\Release\EnglishLearningTools.Migrations.AddNameToRegister.resources
+G:\C# Project\EnglishLearningTools - Copy\EnglishLearningTools\obj\Release\EnglishLearningTools.csproj.GenerateResource.cache
+G:\C# Project\EnglishLearningTools - Copy\EnglishLearningTools\obj\Release\EnglishLearningTools.csproj.CoreCompileInputs.cache
+G:\C# Project\EnglishLearningTools - Copy\EnglishLearningTools\obj\Release\EnglishLearningTools.csproj.CopyComplete
+G:\C# Project\EnglishLearningTools - Copy\EnglishLearningTools\obj\Release\EnglishLearningTools.dll
+G:\C# Project\EnglishLearningTools - Copy\EnglishLearningTools\obj\Release\EnglishLearningTools.pdb
+G:\C# Project\EnglishLearningTools - Copy - Copy\EnglishLearningTools\bin\EnglishLearningTools.dll.config
+G:\C# Project\EnglishLearningTools - Copy - Copy\EnglishLearningTools\bin\EnglishLearningTools.dll
+G:\C# Project\EnglishLearningTools - Copy - Copy\EnglishLearningTools\bin\EnglishLearningTools.pdb
+G:\C# Project\EnglishLearningTools - Copy - Copy\EnglishLearningTools\bin\roslyn\csc.exe
+G:\C# Project\EnglishLearningTools - Copy - Copy\EnglishLearningTools\bin\roslyn\csc.exe.config
+G:\C# Project\EnglishLearningTools - Copy - Copy\EnglishLearningTools\bin\roslyn\csc.rsp
+G:\C# Project\EnglishLearningTools - Copy - Copy\EnglishLearningTools\bin\roslyn\csi.exe
+G:\C# Project\EnglishLearningTools - Copy - Copy\EnglishLearningTools\bin\roslyn\csi.exe.config
+G:\C# Project\EnglishLearningTools - Copy - Copy\EnglishLearningTools\bin\roslyn\csi.rsp
+G:\C# Project\EnglishLearningTools - Copy - Copy\EnglishLearningTools\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+G:\C# Project\EnglishLearningTools - Copy - Copy\EnglishLearningTools\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+G:\C# Project\EnglishLearningTools - Copy - Copy\EnglishLearningTools\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+G:\C# Project\EnglishLearningTools - Copy - Copy\EnglishLearningTools\bin\roslyn\Microsoft.CodeAnalysis.dll
+G:\C# Project\EnglishLearningTools - Copy - Copy\EnglishLearningTools\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+G:\C# Project\EnglishLearningTools - Copy - Copy\EnglishLearningTools\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+G:\C# Project\EnglishLearningTools - Copy - Copy\EnglishLearningTools\bin\roslyn\Microsoft.CSharp.Core.targets
+G:\C# Project\EnglishLearningTools - Copy - Copy\EnglishLearningTools\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+G:\C# Project\EnglishLearningTools - Copy - Copy\EnglishLearningTools\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+G:\C# Project\EnglishLearningTools - Copy - Copy\EnglishLearningTools\bin\roslyn\Microsoft.Managed.Core.targets
+G:\C# Project\EnglishLearningTools - Copy - Copy\EnglishLearningTools\bin\roslyn\Microsoft.VisualBasic.Core.targets
+G:\C# Project\EnglishLearningTools - Copy - Copy\EnglishLearningTools\bin\roslyn\Microsoft.Win32.Primitives.dll
+G:\C# Project\EnglishLearningTools - Copy - Copy\EnglishLearningTools\bin\roslyn\System.AppContext.dll
+G:\C# Project\EnglishLearningTools - Copy - Copy\EnglishLearningTools\bin\roslyn\System.Collections.Immutable.dll
+G:\C# Project\EnglishLearningTools - Copy - Copy\EnglishLearningTools\bin\roslyn\System.Console.dll
+G:\C# Project\EnglishLearningTools - Copy - Copy\EnglishLearningTools\bin\roslyn\System.Diagnostics.DiagnosticSource.dll
+G:\C# Project\EnglishLearningTools - Copy - Copy\EnglishLearningTools\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+G:\C# Project\EnglishLearningTools - Copy - Copy\EnglishLearningTools\bin\roslyn\System.Diagnostics.StackTrace.dll
+G:\C# Project\EnglishLearningTools - Copy - Copy\EnglishLearningTools\bin\roslyn\System.Globalization.Calendars.dll
+G:\C# Project\EnglishLearningTools - Copy - Copy\EnglishLearningTools\bin\roslyn\System.IO.Compression.dll
+G:\C# Project\EnglishLearningTools - Copy - Copy\EnglishLearningTools\bin\roslyn\System.IO.Compression.ZipFile.dll
+G:\C# Project\EnglishLearningTools - Copy - Copy\EnglishLearningTools\bin\roslyn\System.IO.FileSystem.dll
+G:\C# Project\EnglishLearningTools - Copy - Copy\EnglishLearningTools\bin\roslyn\System.IO.FileSystem.Primitives.dll
+G:\C# Project\EnglishLearningTools - Copy - Copy\EnglishLearningTools\bin\roslyn\System.Net.Http.dll
+G:\C# Project\EnglishLearningTools - Copy - Copy\EnglishLearningTools\bin\roslyn\System.Net.Sockets.dll
+G:\C# Project\EnglishLearningTools - Copy - Copy\EnglishLearningTools\bin\roslyn\System.Reflection.Metadata.dll
+G:\C# Project\EnglishLearningTools - Copy - Copy\EnglishLearningTools\bin\roslyn\System.Runtime.InteropServices.RuntimeInformation.dll
+G:\C# Project\EnglishLearningTools - Copy - Copy\EnglishLearningTools\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+G:\C# Project\EnglishLearningTools - Copy - Copy\EnglishLearningTools\bin\roslyn\System.Security.Cryptography.Encoding.dll
+G:\C# Project\EnglishLearningTools - Copy - Copy\EnglishLearningTools\bin\roslyn\System.Security.Cryptography.Primitives.dll
+G:\C# Project\EnglishLearningTools - Copy - Copy\EnglishLearningTools\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+G:\C# Project\EnglishLearningTools - Copy - Copy\EnglishLearningTools\bin\roslyn\System.Text.Encoding.CodePages.dll
+G:\C# Project\EnglishLearningTools - Copy - Copy\EnglishLearningTools\bin\roslyn\System.Threading.Tasks.Extensions.dll
+G:\C# Project\EnglishLearningTools - Copy - Copy\EnglishLearningTools\bin\roslyn\System.ValueTuple.dll
+G:\C# Project\EnglishLearningTools - Copy - Copy\EnglishLearningTools\bin\roslyn\System.Xml.ReaderWriter.dll
+G:\C# Project\EnglishLearningTools - Copy - Copy\EnglishLearningTools\bin\roslyn\System.Xml.XmlDocument.dll
+G:\C# Project\EnglishLearningTools - Copy - Copy\EnglishLearningTools\bin\roslyn\System.Xml.XPath.dll
+G:\C# Project\EnglishLearningTools - Copy - Copy\EnglishLearningTools\bin\roslyn\System.Xml.XPath.XDocument.dll
+G:\C# Project\EnglishLearningTools - Copy - Copy\EnglishLearningTools\bin\roslyn\vbc.exe
+G:\C# Project\EnglishLearningTools - Copy - Copy\EnglishLearningTools\bin\roslyn\vbc.exe.config
+G:\C# Project\EnglishLearningTools - Copy - Copy\EnglishLearningTools\bin\roslyn\vbc.rsp
+G:\C# Project\EnglishLearningTools - Copy - Copy\EnglishLearningTools\bin\roslyn\VBCSCompiler.exe
+G:\C# Project\EnglishLearningTools - Copy - Copy\EnglishLearningTools\bin\roslyn\VBCSCompiler.exe.config
+G:\C# Project\EnglishLearningTools - Copy - Copy\EnglishLearningTools\bin\Antlr3.Runtime.dll
+G:\C# Project\EnglishLearningTools - Copy - Copy\EnglishLearningTools\bin\EntityFramework.dll
+G:\C# Project\EnglishLearningTools - Copy - Copy\EnglishLearningTools\bin\EntityFramework.SqlServer.dll
+G:\C# Project\EnglishLearningTools - Copy - Copy\EnglishLearningTools\bin\Google.Api.Gax.dll
+G:\C# Project\EnglishLearningTools - Copy - Copy\EnglishLearningTools\bin\Google.Api.Gax.Rest.dll
+G:\C# Project\EnglishLearningTools - Copy - Copy\EnglishLearningTools\bin\Google.Apis.Auth.dll
+G:\C# Project\EnglishLearningTools - Copy - Copy\EnglishLearningTools\bin\Google.Apis.Auth.PlatformServices.dll
+G:\C# Project\EnglishLearningTools - Copy - Copy\EnglishLearningTools\bin\Google.Apis.Core.dll
+G:\C# Project\EnglishLearningTools - Copy - Copy\EnglishLearningTools\bin\Google.Apis.Customsearch.v1.dll
+G:\C# Project\EnglishLearningTools - Copy - Copy\EnglishLearningTools\bin\Google.Apis.CustomSearchAPI.v1.dll
+G:\C# Project\EnglishLearningTools - Copy - Copy\EnglishLearningTools\bin\Google.Apis.dll
+G:\C# Project\EnglishLearningTools - Copy - Copy\EnglishLearningTools\bin\Google.Apis.PlatformServices.dll
+G:\C# Project\EnglishLearningTools - Copy - Copy\EnglishLearningTools\bin\Google.Apis.Translate.v2.dll
+G:\C# Project\EnglishLearningTools - Copy - Copy\EnglishLearningTools\bin\Google.Cloud.Translation.V2.dll
+G:\C# Project\EnglishLearningTools - Copy - Copy\EnglishLearningTools\bin\MerriamWebster.NET.dll
+G:\C# Project\EnglishLearningTools - Copy - Copy\EnglishLearningTools\bin\Microsoft.AspNet.Identity.Core.dll
+G:\C# Project\EnglishLearningTools - Copy - Copy\EnglishLearningTools\bin\Microsoft.AspNet.Identity.EntityFramework.dll
+G:\C# Project\EnglishLearningTools - Copy - Copy\EnglishLearningTools\bin\Microsoft.AspNet.Identity.Owin.dll
+G:\C# Project\EnglishLearningTools - Copy - Copy\EnglishLearningTools\bin\Microsoft.Bcl.AsyncInterfaces.dll
+G:\C# Project\EnglishLearningTools - Copy - Copy\EnglishLearningTools\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+G:\C# Project\EnglishLearningTools - Copy - Copy\EnglishLearningTools\bin\Microsoft.Configuration.ConfigurationBuilders.Base.dll
+G:\C# Project\EnglishLearningTools - Copy - Copy\EnglishLearningTools\bin\Microsoft.Configuration.ConfigurationBuilders.UserSecrets.dll
+G:\C# Project\EnglishLearningTools - Copy - Copy\EnglishLearningTools\bin\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+G:\C# Project\EnglishLearningTools - Copy - Copy\EnglishLearningTools\bin\Microsoft.Extensions.DependencyInjection.dll
+G:\C# Project\EnglishLearningTools - Copy - Copy\EnglishLearningTools\bin\Microsoft.Extensions.Http.dll
+G:\C# Project\EnglishLearningTools - Copy - Copy\EnglishLearningTools\bin\Microsoft.Extensions.Logging.Abstractions.dll
+G:\C# Project\EnglishLearningTools - Copy - Copy\EnglishLearningTools\bin\Microsoft.Extensions.Logging.dll
+G:\C# Project\EnglishLearningTools - Copy - Copy\EnglishLearningTools\bin\Microsoft.Extensions.Options.dll
+G:\C# Project\EnglishLearningTools - Copy - Copy\EnglishLearningTools\bin\Microsoft.Extensions.Primitives.dll
+G:\C# Project\EnglishLearningTools - Copy - Copy\EnglishLearningTools\bin\Microsoft.Owin.dll
+G:\C# Project\EnglishLearningTools - Copy - Copy\EnglishLearningTools\bin\Microsoft.Owin.Host.SystemWeb.dll
+G:\C# Project\EnglishLearningTools - Copy - Copy\EnglishLearningTools\bin\Microsoft.Owin.Security.Cookies.dll
+G:\C# Project\EnglishLearningTools - Copy - Copy\EnglishLearningTools\bin\Microsoft.Owin.Security.dll
+G:\C# Project\EnglishLearningTools - Copy - Copy\EnglishLearningTools\bin\Microsoft.Owin.Security.Facebook.dll
+G:\C# Project\EnglishLearningTools - Copy - Copy\EnglishLearningTools\bin\Microsoft.Owin.Security.Google.dll
+G:\C# Project\EnglishLearningTools - Copy - Copy\EnglishLearningTools\bin\Microsoft.Owin.Security.MicrosoftAccount.dll
+G:\C# Project\EnglishLearningTools - Copy - Copy\EnglishLearningTools\bin\Microsoft.Owin.Security.OAuth.dll
+G:\C# Project\EnglishLearningTools - Copy - Copy\EnglishLearningTools\bin\Microsoft.Owin.Security.Twitter.dll
+G:\C# Project\EnglishLearningTools - Copy - Copy\EnglishLearningTools\bin\Microsoft.Web.Infrastructure.dll
+G:\C# Project\EnglishLearningTools - Copy - Copy\EnglishLearningTools\bin\Newtonsoft.Json.dll
+G:\C# Project\EnglishLearningTools - Copy - Copy\EnglishLearningTools\bin\Owin.dll
+G:\C# Project\EnglishLearningTools - Copy - Copy\EnglishLearningTools\bin\RestSharp.dll
+G:\C# Project\EnglishLearningTools - Copy - Copy\EnglishLearningTools\bin\System.Buffers.dll
+G:\C# Project\EnglishLearningTools - Copy - Copy\EnglishLearningTools\bin\System.Diagnostics.DiagnosticSource.dll
+G:\C# Project\EnglishLearningTools - Copy - Copy\EnglishLearningTools\bin\System.Memory.dll
+G:\C# Project\EnglishLearningTools - Copy - Copy\EnglishLearningTools\bin\System.Net.Http.Formatting.dll
+G:\C# Project\EnglishLearningTools - Copy - Copy\EnglishLearningTools\bin\System.Numerics.Vectors.dll
+G:\C# Project\EnglishLearningTools - Copy - Copy\EnglishLearningTools\bin\System.Runtime.CompilerServices.Unsafe.dll
+G:\C# Project\EnglishLearningTools - Copy - Copy\EnglishLearningTools\bin\System.Threading.Tasks.Extensions.dll
+G:\C# Project\EnglishLearningTools - Copy - Copy\EnglishLearningTools\bin\System.ValueTuple.dll
+G:\C# Project\EnglishLearningTools - Copy - Copy\EnglishLearningTools\bin\System.Web.Helpers.dll
+G:\C# Project\EnglishLearningTools - Copy - Copy\EnglishLearningTools\bin\System.Web.Http.dll
+G:\C# Project\EnglishLearningTools - Copy - Copy\EnglishLearningTools\bin\System.Web.Http.WebHost.dll
+G:\C# Project\EnglishLearningTools - Copy - Copy\EnglishLearningTools\bin\System.Web.Mvc.dll
+G:\C# Project\EnglishLearningTools - Copy - Copy\EnglishLearningTools\bin\System.Web.Optimization.dll
+G:\C# Project\EnglishLearningTools - Copy - Copy\EnglishLearningTools\bin\System.Web.Razor.dll
+G:\C# Project\EnglishLearningTools - Copy - Copy\EnglishLearningTools\bin\System.Web.WebPages.Deployment.dll
+G:\C# Project\EnglishLearningTools - Copy - Copy\EnglishLearningTools\bin\System.Web.WebPages.dll
+G:\C# Project\EnglishLearningTools - Copy - Copy\EnglishLearningTools\bin\System.Web.WebPages.Razor.dll
+G:\C# Project\EnglishLearningTools - Copy - Copy\EnglishLearningTools\bin\WebGrease.dll
+G:\C# Project\EnglishLearningTools - Copy - Copy\EnglishLearningTools\bin\Antlr3.Runtime.pdb
+G:\C# Project\EnglishLearningTools - Copy - Copy\EnglishLearningTools\bin\EntityFramework.xml
+G:\C# Project\EnglishLearningTools - Copy - Copy\EnglishLearningTools\bin\EntityFramework.SqlServer.xml
+G:\C# Project\EnglishLearningTools - Copy - Copy\EnglishLearningTools\bin\Google.Api.Gax.pdb
+G:\C# Project\EnglishLearningTools - Copy - Copy\EnglishLearningTools\bin\Google.Api.Gax.xml
+G:\C# Project\EnglishLearningTools - Copy - Copy\EnglishLearningTools\bin\Google.Api.Gax.Rest.pdb
+G:\C# Project\EnglishLearningTools - Copy - Copy\EnglishLearningTools\bin\Google.Api.Gax.Rest.xml
+G:\C# Project\EnglishLearningTools - Copy - Copy\EnglishLearningTools\bin\Google.Apis.pdb
+G:\C# Project\EnglishLearningTools - Copy - Copy\EnglishLearningTools\bin\Google.Apis.xml
+G:\C# Project\EnglishLearningTools - Copy - Copy\EnglishLearningTools\bin\Google.Apis.Auth.pdb
+G:\C# Project\EnglishLearningTools - Copy - Copy\EnglishLearningTools\bin\Google.Apis.Auth.xml
+G:\C# Project\EnglishLearningTools - Copy - Copy\EnglishLearningTools\bin\Google.Apis.Core.pdb
+G:\C# Project\EnglishLearningTools - Copy - Copy\EnglishLearningTools\bin\Google.Apis.Core.xml
+G:\C# Project\EnglishLearningTools - Copy - Copy\EnglishLearningTools\bin\Google.Apis.Customsearch.v1.pdb
+G:\C# Project\EnglishLearningTools - Copy - Copy\EnglishLearningTools\bin\Google.Apis.Customsearch.v1.xml
+G:\C# Project\EnglishLearningTools - Copy - Copy\EnglishLearningTools\bin\Google.Apis.CustomSearchAPI.v1.pdb
+G:\C# Project\EnglishLearningTools - Copy - Copy\EnglishLearningTools\bin\Google.Apis.CustomSearchAPI.v1.xml
+G:\C# Project\EnglishLearningTools - Copy - Copy\EnglishLearningTools\bin\Google.Apis.Translate.v2.pdb
+G:\C# Project\EnglishLearningTools - Copy - Copy\EnglishLearningTools\bin\Google.Apis.Translate.v2.xml
+G:\C# Project\EnglishLearningTools - Copy - Copy\EnglishLearningTools\bin\Google.Cloud.Translation.V2.pdb
+G:\C# Project\EnglishLearningTools - Copy - Copy\EnglishLearningTools\bin\Google.Cloud.Translation.V2.xml
+G:\C# Project\EnglishLearningTools - Copy - Copy\EnglishLearningTools\bin\Microsoft.AspNet.Identity.Core.xml
+G:\C# Project\EnglishLearningTools - Copy - Copy\EnglishLearningTools\bin\Microsoft.AspNet.Identity.EntityFramework.xml
+G:\C# Project\EnglishLearningTools - Copy - Copy\EnglishLearningTools\bin\Microsoft.AspNet.Identity.Owin.xml
+G:\C# Project\EnglishLearningTools - Copy - Copy\EnglishLearningTools\bin\Microsoft.Bcl.AsyncInterfaces.xml
+G:\C# Project\EnglishLearningTools - Copy - Copy\EnglishLearningTools\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+G:\C# Project\EnglishLearningTools - Copy - Copy\EnglishLearningTools\bin\Microsoft.Configuration.ConfigurationBuilders.Base.xml
+G:\C# Project\EnglishLearningTools - Copy - Copy\EnglishLearningTools\bin\Microsoft.Configuration.ConfigurationBuilders.UserSecrets.xml
+G:\C# Project\EnglishLearningTools - Copy - Copy\EnglishLearningTools\bin\Microsoft.Extensions.DependencyInjection.xml
+G:\C# Project\EnglishLearningTools - Copy - Copy\EnglishLearningTools\bin\Microsoft.Extensions.DependencyInjection.Abstractions.xml
+G:\C# Project\EnglishLearningTools - Copy - Copy\EnglishLearningTools\bin\Microsoft.Extensions.Http.xml
+G:\C# Project\EnglishLearningTools - Copy - Copy\EnglishLearningTools\bin\Microsoft.Extensions.Logging.xml
+G:\C# Project\EnglishLearningTools - Copy - Copy\EnglishLearningTools\bin\Microsoft.Extensions.Logging.Abstractions.xml
+G:\C# Project\EnglishLearningTools - Copy - Copy\EnglishLearningTools\bin\Microsoft.Extensions.Options.xml
+G:\C# Project\EnglishLearningTools - Copy - Copy\EnglishLearningTools\bin\Microsoft.Extensions.Primitives.xml
+G:\C# Project\EnglishLearningTools - Copy - Copy\EnglishLearningTools\bin\Microsoft.Owin.xml
+G:\C# Project\EnglishLearningTools - Copy - Copy\EnglishLearningTools\bin\Microsoft.Owin.Host.SystemWeb.xml
+G:\C# Project\EnglishLearningTools - Copy - Copy\EnglishLearningTools\bin\Microsoft.Owin.Security.xml
+G:\C# Project\EnglishLearningTools - Copy - Copy\EnglishLearningTools\bin\Microsoft.Owin.Security.Cookies.xml
+G:\C# Project\EnglishLearningTools - Copy - Copy\EnglishLearningTools\bin\Microsoft.Owin.Security.Facebook.xml
+G:\C# Project\EnglishLearningTools - Copy - Copy\EnglishLearningTools\bin\Microsoft.Owin.Security.Google.xml
+G:\C# Project\EnglishLearningTools - Copy - Copy\EnglishLearningTools\bin\Microsoft.Owin.Security.MicrosoftAccount.xml
+G:\C# Project\EnglishLearningTools - Copy - Copy\EnglishLearningTools\bin\Microsoft.Owin.Security.OAuth.xml
+G:\C# Project\EnglishLearningTools - Copy - Copy\EnglishLearningTools\bin\Microsoft.Owin.Security.Twitter.xml
+G:\C# Project\EnglishLearningTools - Copy - Copy\EnglishLearningTools\bin\Newtonsoft.Json.xml
+G:\C# Project\EnglishLearningTools - Copy - Copy\EnglishLearningTools\bin\RestSharp.xml
+G:\C# Project\EnglishLearningTools - Copy - Copy\EnglishLearningTools\bin\System.Buffers.xml
+G:\C# Project\EnglishLearningTools - Copy - Copy\EnglishLearningTools\bin\System.Diagnostics.DiagnosticSource.xml
+G:\C# Project\EnglishLearningTools - Copy - Copy\EnglishLearningTools\bin\System.Memory.xml
+G:\C# Project\EnglishLearningTools - Copy - Copy\EnglishLearningTools\bin\System.Net.Http.Formatting.xml
+G:\C# Project\EnglishLearningTools - Copy - Copy\EnglishLearningTools\bin\System.Numerics.Vectors.xml
+G:\C# Project\EnglishLearningTools - Copy - Copy\EnglishLearningTools\bin\System.Runtime.CompilerServices.Unsafe.xml
+G:\C# Project\EnglishLearningTools - Copy - Copy\EnglishLearningTools\bin\System.Threading.Tasks.Extensions.xml
+G:\C# Project\EnglishLearningTools - Copy - Copy\EnglishLearningTools\bin\System.ValueTuple.xml
+G:\C# Project\EnglishLearningTools - Copy - Copy\EnglishLearningTools\bin\System.Web.Helpers.xml
+G:\C# Project\EnglishLearningTools - Copy - Copy\EnglishLearningTools\bin\System.Web.Http.xml
+G:\C# Project\EnglishLearningTools - Copy - Copy\EnglishLearningTools\bin\System.Web.Http.WebHost.xml
+G:\C# Project\EnglishLearningTools - Copy - Copy\EnglishLearningTools\bin\System.Web.Mvc.xml
+G:\C# Project\EnglishLearningTools - Copy - Copy\EnglishLearningTools\bin\System.Web.Optimization.xml
+G:\C# Project\EnglishLearningTools - Copy - Copy\EnglishLearningTools\bin\System.Web.Razor.xml
+G:\C# Project\EnglishLearningTools - Copy - Copy\EnglishLearningTools\bin\System.Web.WebPages.xml
+G:\C# Project\EnglishLearningTools - Copy - Copy\EnglishLearningTools\bin\System.Web.WebPages.Deployment.xml
+G:\C# Project\EnglishLearningTools - Copy - Copy\EnglishLearningTools\bin\System.Web.WebPages.Razor.xml
+G:\C# Project\EnglishLearningTools - Copy - Copy\EnglishLearningTools\obj\Release\EnglishLearningTools.csprojAssemblyReference.cache
+G:\C# Project\EnglishLearningTools - Copy - Copy\EnglishLearningTools\obj\Release\EnglishLearningTools.Migrations.InitialCreate.resources
+G:\C# Project\EnglishLearningTools - Copy - Copy\EnglishLearningTools\obj\Release\EnglishLearningTools.Migrations.initialMigration.resources
+G:\C# Project\EnglishLearningTools - Copy - Copy\EnglishLearningTools\obj\Release\EnglishLearningTools.Migrations.AddUserListIdToAspNetUsers.resources
+G:\C# Project\EnglishLearningTools - Copy - Copy\EnglishLearningTools\obj\Release\EnglishLearningTools.Migrations.AddUserListIdToAspNetUsers1.resources
+G:\C# Project\EnglishLearningTools - Copy - Copy\EnglishLearningTools\obj\Release\EnglishLearningTools.Migrations.AddFieldsToUserLists.resources
+G:\C# Project\EnglishLearningTools - Copy - Copy\EnglishLearningTools\obj\Release\EnglishLearningTools.Migrations.AddNameToRegister.resources
+G:\C# Project\EnglishLearningTools - Copy - Copy\EnglishLearningTools\obj\Release\EnglishLearningTools.csproj.GenerateResource.cache
+G:\C# Project\EnglishLearningTools - Copy - Copy\EnglishLearningTools\obj\Release\EnglishLearningTools.csproj.CoreCompileInputs.cache
+G:\C# Project\EnglishLearningTools - Copy - Copy\EnglishLearningTools\obj\Release\EnglishLearningTools.csproj.CopyComplete
+G:\C# Project\EnglishLearningTools - Copy - Copy\EnglishLearningTools\obj\Release\EnglishLearningTools.dll
+G:\C# Project\EnglishLearningTools - Copy - Copy\EnglishLearningTools\obj\Release\EnglishLearningTools.pdb

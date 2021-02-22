@@ -1,0 +1,36 @@
+﻿@model EnglishLearningTools.Models.UserLists
+@{
+    ViewBag.Title = "NewList";
+}
+
+
+@using (Html.BeginForm("AddList", "Lists", FormMethod.Post, new { @class = " form-group" }))
+{
+    
+<div class="form-group">
+    <h3>Enter Your New List Name: </h3>
+    @Html.TextBoxFor(l => l.ListName, new { @class = "form-control", @placeholder = "List Name" })
+
+    <h3>Type a list of words you want to learn </h3>
+    @Html.TextAreaFor(l => l.Word, new {@class = "form-control",@rows = "6", @placeholder= "The list of words should be separated by comma or space" })
+
+    <button type="submit" class="btn btn-primary center-block">Create</button>
+    @if (!ViewData.ModelState.IsValid)
+    {
+        <div class="alert alert-danger" >
+            <button type="button" class="close" data-dismiss="alert">x</button>
+            <strong>Error: </strong>@Html.ValidationMessage("ListName") already exists, please choose another name!
+        </div>
+    }
+    
+</div>
+}
+
+@section scripts
+{
+    <style>
+        .form-group {
+            margin: 20px;
+        }
+    </style>
+}
